@@ -649,12 +649,6 @@ a {
   gap: 16px;
 }
 
-@media (min-width: 640px) {
-  .bank-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .bank-field__label {
   font-family: var(--font-body);
   font-size: 12px;
