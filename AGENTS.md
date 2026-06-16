@@ -30,6 +30,7 @@ app/
 - **No external JS libraries** beyond React/Next.js.
 - **No Tailwind.** All styles live in `globals.css` using CSS custom properties.
 - **Images are red box placeholders** — will be replaced later with real photos.
+- **Push after each edit** - Always do git add <files you changed> && git commit -m ":gitmoji: My edit" && git push. In case of conflicts, reset --hard head~1, git pull then push again
 
 ---
 
