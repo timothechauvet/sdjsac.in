@@ -84,7 +84,7 @@ export default function Home() {
                 <p><strong>ಕಾರ್ಯದರ್ಶಿ (Secretary):</strong> ಪವನ್ ಸಿ. ಜೈನ್ (Pavan C. Jain)</p>
                 <p style={{ marginTop: 8 }}><strong>ಆಶೀರ್ವಾದ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಚರ್ಯಾ ಶಿರೋಮಣಿ ಪರಮಪೂಜ್ಯ ಮುನಿ ಶ್ರೀ 108 ವಿದಿತಸಾಗರ ಮಹಾರಾಜರು</p>
                 <p><strong>ಬೆಂಬಲ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಬಾ.ಬ್ರ. ಮಹಾವೀರ ಬಯ್ಯಾಜಿಯವರು</p>
-                <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> ಸಂತೋಷ್. ಡಿ (ಎಂಜಿನಿಯರ್)</p>
+                <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ಸಂತೋಷ್. ಡಿ</a> (ಎಂಜಿನಿಯರ್)</p>
               </div>
             </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
                 <p><strong>Secretary:</strong> Pavan C. Jain</p>
                 <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidithsagara Maharaj</p>
                 <p><strong>Support & Guidance:</strong> Ba.Bra. Mahaveera Bayyaji</p>
-                <p><strong>Planning & Engineering Drawings:</strong> Santhosh. D (Engineer)</p>
+                <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
               </div>
             </div>
           </div>
