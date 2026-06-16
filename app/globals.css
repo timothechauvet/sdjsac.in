@@ -3,8 +3,6 @@
    Sumeru Digambara Jain Sabha, Adagalale-Chandolli
    ============================================= */
 
-@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&family=Inter:wght@400;700&display=swap");
-
 /* ---------- Reset ---------- */
 *,
 *::before,
@@ -29,10 +27,6 @@
   --error: #ba1a1a;
   --on-primary: #ffffff;
   --background: #ffffff;
-
-  /* Typography */
-  --font-display: "Epilogue", sans-serif;
-  --font-body: "Inter", sans-serif;
 
   /* Spacing */
   --container-max: 1140px;
@@ -1187,7 +1181,7 @@ a {
 
 .footer__copyright-en {
   font-size: 10px !important;
-  color: #a0aec0;
+  color: var(--text-secondary);
   text-transform: uppercase;
   margin-top: 4px;
 }

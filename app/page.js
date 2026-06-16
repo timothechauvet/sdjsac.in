@@ -56,6 +56,9 @@ export default function Home() {
             src="/images/hero_image_title.webp"
             alt="Sumeru Digambara Jain Sabha temple structure - ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ ದೇವಾಲಯ"
             className="hero-image"
+            width="800"
+            height="800"
+            fetchPriority="high"
           />
 
           <div className="hero-info-grid">
@@ -139,6 +142,9 @@ export default function Home() {
                 src="/images/inaugural_ceremony.webp"
                 alt="Inaugural Jinabimba Installation Ceremony rituals - ಶ್ರೀ ಜಿನಬಿಂಬ ಸ್ಥಾಪನಾ ಮಹೋತ್ಸವದ ವಿಧಿವಿಧಾನಗಳು"
                 className="inaugural-image"
+                width="700"
+                height="700"
+                loading="lazy"
               />
             </div>
           </div>
@@ -162,6 +168,9 @@ export default function Home() {
                   src="/images/qr_upi.webp"
                   alt="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
                   className="qr-card__qr-image"
+                  width="240"
+                  height="240"
+                  loading="lazy"
                 />
               </div>
               <p className="body-sm" style={{ color: "var(--text-secondary)", marginTop: 12 }}>
@@ -182,6 +191,9 @@ export default function Home() {
                   src="/images/bhim_upi.webp"
                   alt="BHIM UPI Logo"
                   className="qr-card__bhim-logo"
+                  width="120"
+                  height="16"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -197,6 +209,9 @@ export default function Home() {
                   src="/images/union_bank.webp"
                   alt="Union Bank of India"
                   className="bank-card__bank-logo"
+                  width="180"
+                  height="55"
+                  loading="lazy"
                 />
               </div>
               <div className="bank-grid">
@@ -261,6 +276,8 @@ export default function Home() {
                     src={img.src}
                     alt={img.alt}
                     loading="lazy"
+                    width="600"
+                    height="600"
                   />
                 </div>
               ))}
@@ -309,6 +326,7 @@ export default function Home() {
             </div>
             <div className="location-map">
               <iframe
+                title="Google Maps location of Sumeru Digambara Jain Sabha"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1936.013362740682!2d74.8117103!3d13.9570144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc7b0043fe370d%3A0x70049cc10bd865e5!2sSumeru%20Digambara%20Jain%20Sabha%2C%20Adagalale-Chandolli!5e0!3m2!1sen!2sfr!4v1781599626649!5m2!1sen!2sfr"
                 width="100%"
                 height="100%"
