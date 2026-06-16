@@ -220,11 +220,8 @@ export default function Home() {
               ಉದಾರ ದಾನಿಗಳು / Generous Donors (&gt; 1 Lakh)
             </p>
             <div className="donor-major-grid">
-              <DonorMajor nameKn="ಶ್ರೀ ಸತೀಶ್ ಕುಮಾರ್ ಮತ್ತು ಕುಟುಂಬ" nameEn="Shri Satish Kumar & Family" amount="₹ 5,00,000" />
-              <DonorMajor nameKn="ಶ್ರೀಮತಿ ಲೀಲಾ ಜೈನ್" nameEn="Smt. Leela Jain" amount="₹ 2,50,000" />
               <DonorMajor nameKn="Timothé CHAUVET" nameEn="Paris, France" amount="₹ 2,20,000" link="https://timothechau.vet" />
               <DonorMajor nameKn="Dr. Adarsh JAIN" nameEn="Duisburg, Germany" amount="₹ 1,50,000" link="https://adarshjain.de" />
-              <DonorMajor nameKn="ಆಡಗಳಲೆ ಸಮಾಜ ಬಾಂಧವರು" nameEn="Adagalale Community Members" amount="₹ 1,00,000" />
             </div>
           </div>
 
