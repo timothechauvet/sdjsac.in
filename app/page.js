@@ -202,7 +202,7 @@ export default function Home() {
                   loading="lazy"
                 />
               </div>
-              <p className="body-sm" style={{ color: "var(--text-secondary)", marginTop: 12 }}>
+              <p className="body-sm" style={{ color: "var(--text-secondary)", marginTop: 12, textAlign: "center", width: "100%" }}>
                 ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ದಾನ ಮಾಡಿ
                 <br />
                 Scan and Donate
