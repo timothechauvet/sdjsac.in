@@ -37,12 +37,18 @@ export const metadata = {
     locale: "kn_IN",
     type: "website",
   },
+  verification: {
+    other: {
+      "msvalidate.01": ["A0C98989883B65A86453CA3C50818070"],
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="kn" suppressHydrationWarning className={`${epilogue.variable} ${inter.variable}`}>
       <head>
+        <meta name="msvalidate.01" content="A0C98989883B65A86453CA3C50818070" />
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="shortcut icon" href="/favicon.ico" />
