@@ -334,20 +334,20 @@ export default function Home() {
             </div>
 
             <div className="social-grid">
-              <a href="mailto:contact@sumerujain.org" className="social-button">
+              <a href="mailto:contact@sdjsac.in" className="social-button">
                 <div className="social-button__icon">
                   <IoMail />
                 </div>
                 <span className="social-button__label">ಇಮೇಲ್</span>
-                <span className="social-button__value">contact@sumerujain.org</span>
+                <span className="social-button__value">contact@sdjsac.in</span>
               </a>
 
-              <a href="https://wa.me/919800000000" className="social-button" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/33604491758" className="social-button" target="_blank" rel="noopener noreferrer">
                 <div className="social-button__icon">
                   <FaWhatsapp />
                 </div>
                 <span className="social-button__label">ವಾಟ್ಸಾಪ್</span>
-                <span className="social-button__value">+91 98XXX XXXXX</span>
+                <span className="social-button__value">+33 60XXX XXXXX</span>
               </a>
 
               <a href="https://www.instagram.com/sumeru_digambara_jain_sabha/" className="social-button" target="_blank" rel="noopener noreferrer">
