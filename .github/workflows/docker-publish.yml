@@ -53,3 +53,13 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Trigger Keel Webhook
+        if: github.event_name != 'pull_request'
+        uses: Toasterson/keel-webhook-action@master
+        with:
+          keel-url: "https://keel-webhook.chauvet.dev"
+          keel-username: ${{ secrets.KEEL_USER }}
+          keel-password: ${{ secrets.KEEL_PASSWORD }}
+          image: "ghcr.io/${{ env.IMAGE_NAME }}"
+          image-tag: "latest"
