@@ -75,20 +75,6 @@ export default function Home() {
 
           <div className="hero-info-grid">
             <div className="info-box">
-              <h3>ಜೈನ ಧರ್ಮ ಮತ್ತು ಅಹಿಂಸೆ</h3>
-              <p>
-                ಅಹಿಂಸೆಯೇ ಜೈನ ಧರ್ಮದ ಪರಮ ಧರ್ಮ ಮತ್ತು ಮೂಲ ತತ್ವವಾಗಿದೆ. ಎಲ್ಲಾ ಜೀವಿಗಳೆಡೆಗೆ ದಯೆ, ಕರುಣೆ ಮತ್ತು ಗೌರವವನ್ನು ತೋರುವುದು ಇದರ ಮೂಲ ಸಾರವಾಗಿದೆ. ನಮ್ಮ ಸಂಸ್ಕೃತಿ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಪರಂಪರೆಯನ್ನು ಸಂರಕ್ಷಿಸಲು ಈ ಪುಣ್ಯಸ್ಥಳದಲ್ಲಿ ನೂತನ ಜಿನಾಲಯದ ನಿರ್ಮಾಣ ಅತ್ಯಂತ ಮಹತ್ವದ್ದಾಗಿದೆ.
-              </p>
-              <div className="committee-info">
-                <p><strong>ಅಧ್ಯಕ್ಷರು (President):</strong> ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್ (M.D. Jinadath Jain)</p>
-                <p><strong>ಕಾರ್ಯದರ್ಶಿ (Secretary):</strong> ಪವನ್ ಸಿ. ಜೈನ್ (Pavan C. Jain)</p>
-                <p style={{ marginTop: 8 }}><strong>ಆಶೀರ್ವಾದ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಚರ್ಯಾ ಶಿರೋಮಣಿ ಪರಮಪೂಜ್ಯ ಮುನಿ ಶ್ರೀ 108 ವಿದಿತಸಾಗರ ಮಹಾರಾಜರು</p>
-                <p><strong>ಬೆಂಬಲ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಬಾ.ಬ್ರ. ಮಹಾವೀರ ಬಯ್ಯಾಜಿಯವರು</p>
-                <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ಸಂತೋಷ್. ಡಿ</a> (ಎಂಜಿನಿಯರ್)</p>
-              </div>
-            </div>
-
-            <div className="info-box">
               <h3>Jainism & Non-Violence</h3>
               <p>
                 Non-violence (Ahimsa) is the supreme dharma and core tenet of Jainism, practicing absolute compassion toward all living beings. Constructing a new temple is crucial to preserve our spiritual heritage, enrich the community, and provide a sacred space for future generations.
@@ -99,6 +85,20 @@ export default function Home() {
                 <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidithsagara Maharaj</p>
                 <p><strong>Support & Guidance:</strong> Ba.Bra. Mahaveera Bayyaji</p>
                 <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
+              </div>
+            </div>
+
+            <div className="info-box">
+              <h3>ಜೈನ ಧರ್ಮ ಮತ್ತು ಅಹಿಂಸೆ</h3>
+              <p>
+                ಅಹಿಂಸೆಯೇ ಜೈನ ಧರ್ಮದ ಪರಮ ಧರ್ಮ ಮತ್ತು ಮೂಲ ತತ್ವವಾಗಿದೆ. ಎಲ್ಲಾ ಜೀವಿಗಳೆಡೆಗೆ ದಯೆ, ಕರುಣೆ ಮತ್ತು ಗೌರವವನ್ನು ತೋರುವುದು ಇದರ ಮೂಲ ಸಾರವಾಗಿದೆ. ನಮ್ಮ ಸಂಸ್ಕೃತಿ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಪರಂಪರೆಯನ್ನು ಸಂರಕ್ಷಿಸಲು ಈ ಪುಣ್ಯಸ್ಥಳದಲ್ಲಿ ನೂತನ ಜಿನಾಲಯದ ನಿರ್ಮಾಣ ಅತ್ಯಂತ ಮಹತ್ವದ್ದಾಗಿದೆ.
+              </p>
+              <div className="committee-info">
+                <p><strong>ಅಧ್ಯಕ್ಷರು (President):</strong> ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್ (M.D. Jinadath Jain)</p>
+                <p><strong>ಕಾರ್ಯದರ್ಶಿ (Secretary):</strong> ಪವನ್ ಸಿ. ಜೈನ್ (Pavan C. Jain)</p>
+                <p style={{ marginTop: 8 }}><strong>ಆಶೀರ್ವಾದ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಚರ್ಯಾ ಶಿರೋಮಣಿ ಪರಮಪೂಜ್ಯ ಮುನಿ ಶ್ರೀ 108 ವಿದಿತಸಾಗರ ಮಹಾರಾಜರು</p>
+                <p><strong>ಬೆಂಬಲ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಬಾ.ಬ್ರ. ಮಹಾವೀರ ಬಯ್ಯಾಜಿಯವರು</p>
+                <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ಸಂತೋಷ್. ಡಿ</a> (ಎಂಜಿನಿಯರ್)</p>
               </div>
             </div>
           </div>
