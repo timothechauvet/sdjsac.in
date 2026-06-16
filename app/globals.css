@@ -339,6 +339,7 @@ a {
 @media (min-width: 768px) {
   .hero-section {
     grid-template-columns: 1.5fr 1fr;
+    align-items: stretch;
   }
 }
 
@@ -348,6 +349,13 @@ a {
   object-fit: cover;
   border-radius: 12px;
   border: 1px solid var(--text-charcoal);
+}
+
+@media (min-width: 768px) {
+  .hero-image {
+    height: 100%;
+    aspect-ratio: auto;
+  }
 }
 
 /* ---------- Hero Info Grid ---------- */
