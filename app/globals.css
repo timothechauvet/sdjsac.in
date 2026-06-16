@@ -343,17 +343,33 @@ a {
   }
 }
 
-.hero-image {
+.hero-images-container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+}
+
+.hero-image-wrapper {
+  flex: 1;
+  aspect-ratio: 1 / 1;
   border-radius: 12px;
+  overflow: hidden;
   border: 1px solid var(--text-charcoal);
 }
 
+.hero-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (min-width: 768px) {
-  .hero-image {
+  .hero-images-container {
+    flex-direction: column;
     height: 100%;
+  }
+  .hero-image-wrapper {
     aspect-ratio: auto;
   }
 }

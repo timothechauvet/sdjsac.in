@@ -52,14 +52,26 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <img
-            src="/images/hero_image_title.webp"
-            alt="Sumeru Digambara Jain Sabha temple structure - ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ ದೇವಾಲಯ"
-            className="hero-image"
-            width="800"
-            height="800"
-            fetchPriority="high"
-          />
+          <div className="hero-images-container">
+            <div className="hero-image-wrapper">
+              <img
+                src="/images/hero_image_hero.webp"
+                alt="Sumeru Digambara Jain Sabha temple structure - ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ ದೇವಾಲಯ"
+                width="600"
+                height="600"
+                fetchPriority="high"
+              />
+            </div>
+            <div className="hero-image-wrapper">
+              <img
+                src="/images/hero_image_muni.webp"
+                alt="Muni Shri 108 Vidith Sagar Presiding - ಪೂಜ್ಯ ಮುನಿ ಶ್ರೀ 108 ವಿದಿತ ಸಾಗರ ಮಹಾರಾಜರ ಮಾರ್ಗದರ್ಶನ"
+                width="600"
+                height="600"
+                fetchPriority="high"
+              />
+            </div>
+          </div>
 
           <div className="hero-info-grid">
             <div className="info-box">
