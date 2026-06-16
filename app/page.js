@@ -52,9 +52,11 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="hero-image-placeholder">
-            IMAGE PLACEHOLDER
-          </div>
+          <img
+            src="/images/hero_image_title.webp"
+            alt="Sumeru Digambara Jain Sabha temple structure - ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ ದೇವಾಲಯ"
+            className="hero-image"
+          />
         </header>
 
         {/* ── Project Status ── */}
@@ -109,7 +111,11 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="image-placeholder">IMAGE PLACEHOLDER</div>
+              <img
+                src="/images/inaugural_ceremony.webp"
+                alt="Inaugural Jinabimba Installation Ceremony rituals - ಶ್ರೀ ಜಿನಬಿಂಬ ಸ್ಥಾಪನಾ ಮಹೋತ್ಸವದ ವಿಧಿವಿಧಾನಗಳು"
+                className="inaugural-image"
+              />
             </div>
           </div>
         </section>
@@ -226,16 +232,13 @@ export default function Home() {
 
           <div className="gallery-wrapper">
             <div className="gallery-grid">
-              {[
-                "Statue close-up",
-                "Temple exterior",
-                "Ritual ceremony",
-                "Community prayer",
-                "Pillar carvings",
-                "Spiritual procession",
-              ].map((alt, i) => (
+              {GALLERY_IMAGES.map((img, i) => (
                 <div key={i} className="gallery-item">
-                  {alt.toUpperCase()}
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    loading="lazy"
+                  />
                 </div>
               ))}
             </div>
@@ -430,3 +433,31 @@ const MINOR_DONORS = [
   { nameKn: "ಶ್ರೀ ಜಯ", nameEn: "Donor", amount: "₹ 1,001" },
   { nameKn: "ಶ್ರೀ ವಿಜಯ", nameEn: "Donor", amount: "₹ 1,001" }
 ];
+
+const GALLERY_IMAGES = [
+  {
+    src: "/images/grid_construction_plan_temporary.webp",
+    alt: "Temple construction plan layout - ದೇವಸ್ಥಾನದ ತಾತ್ಕಾಲಿಕ ನಿರ್ಮಾಣ ಯೋಜನೆ"
+  },
+  {
+    src: "/images/grid_statue_carrying.webp",
+    alt: "Transporting the 11-foot Bhagwan Mallinath statue - ವಿಗ್ರಹದ ಆಗಮನ ಮತ್ತು ಸಾಗಣೆ"
+  },
+  {
+    src: "/images/grid_statue_sunlight.webp",
+    alt: "Bhagwan Mallinath statue under natural sunlight - ಸೂರ್ಯನ ಬೆಳಕಿನಲ್ಲಿ ಭಗವಾನ್ ಮಲ್ಲಿನಾಥರ ಪ್ರತಿಮೆ"
+  },
+  {
+    src: "/images/grid_muni.webp",
+    alt: "Muni Shri 108 Vidith Sagar Presiding - ಪೂಜ್ಯ ಮುನಿ ಶ್ರೀ 108 ವಿದಿತ ಸಾಗರ ಮಹಾರಾಜರ ಮಾರ್ಗದರ್ಶನ"
+  },
+  {
+    src: "/images/grid_lifting_statue_support.webp",
+    alt: "Lifting the heavy statue with support - ವಿಗ್ರಹದ ಪ್ರತಿಷ್ಠಾಪನೆ ಮತ್ತು ಜೋಡಣೆ"
+  },
+  {
+    src: "/images/grid_flag_raised.webp",
+    alt: "Jain flag hosted atop the temple - ದೇಗುಲದ ಮೇಲೆ ಪವಿತ್ರ ಧರ್ಮಧ್ವಜಾರೋಹಣ"
+  }
+];
+
