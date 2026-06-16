@@ -1,4 +1,4 @@
-# ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ — sdjsac.in
+# ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ — sdjsac.in 
 
 Static website for **Sumeru Digambara Jain Sabha, Adagalale-Chandolli** — a fundraising and community information page for the construction of the 11-foot Bhagwan Shree 1008 Mallinath Tirthankara statue and surrounding temple complex.
 
