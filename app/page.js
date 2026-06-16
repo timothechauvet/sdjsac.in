@@ -209,7 +209,7 @@ export default function Home() {
               </p>
               <div style={{ marginTop: 8, textAlign: "left", width: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
                 <div>
-                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / Account Name</p>
+                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / ACCOUNT NAME</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16 }}>SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI</span>
                     <button 
@@ -264,12 +264,74 @@ export default function Home() {
                 />
               </div>
               <div className="bank-grid">
-                <BankField label="ಖಾತೆ ಹೆಸರು / ACCOUNT NAME" value="M/S SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI" />
-                <BankField label="ಬ್ಯಾಂಕ್ / BANK" value="UNION BANK OF INDIA" />
-                <BankField label="ಖಾತೆ ಸಂಖ್ಯೆ / ACCOUNT NUMBER" value="328422010000615" />
-                <BankField label="ಐಎಫ್‌ಎಸ್‌ಸಿ ಕೋಡ್ / IFSC CODE" value="UBIN0932841" />
+                <div>
+                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / ACCOUNT NAME</p>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>M/S SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI</span>
+                    <button 
+                      onClick={() => handleCopy("M/S SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI", "bank-name")}
+                      style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
+                    >
+                      <FaCopy size={14} />
+                      {copiedText === "bank-name" ? "Copied!" : "Copy"}
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <p className="bank-field__label">ಬ್ಯಾಂಕ್ / BANK</p>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>UNION BANK OF INDIA</span>
+                    <button 
+                      onClick={() => handleCopy("UNION BANK OF INDIA", "bank")}
+                      style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
+                    >
+                      <FaCopy size={14} />
+                      {copiedText === "bank" ? "Copied!" : "Copy"}
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <p className="bank-field__label">ಖಾತೆ ಸಂಖ್ಯೆ / ACCOUNT NUMBER</p>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>328422010000615</span>
+                    <button 
+                      onClick={() => handleCopy("328422010000615", "acc")}
+                      style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
+                    >
+                      <FaCopy size={14} />
+                      {copiedText === "acc" ? "Copied!" : "Copy"}
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <p className="bank-field__label">ಐಎಫ್‌ಎಸ್‌ಸಿ ಕೋಡ್ / IFSC CODE</p>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>UBIN0932841</span>
+                    <button 
+                      onClick={() => handleCopy("UBIN0932841", "ifsc")}
+                      style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
+                    >
+                      <FaCopy size={14} />
+                      {copiedText === "ifsc" ? "Copied!" : "Copy"}
+                    </button>
+                  </div>
+                </div>
+
                 <div style={{ gridColumn: "1 / -1" }}>
-                  <BankField label="ಶಾಖೆ ವಿವರಗಳು / BRANCH ADDRESS" value="Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577401, India" />
+                  <p className="bank-field__label">ಶಾಖೆ ವಿವರಗಳು / BRANCH ADDRESS</p>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577401, India</span>
+                    <button 
+                      onClick={() => handleCopy("Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577401, India", "branch")}
+                      style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
+                    >
+                      <FaCopy size={14} />
+                      {copiedText === "branch" ? "Copied!" : "Copy"}
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
