@@ -1,8 +1,19 @@
-import { FaWhatsapp, FaInstagram, FaFacebookF } from "react-icons/fa";
+"use client";
+
+import { FaWhatsapp, FaInstagram, FaFacebookF, FaCopy } from "react-icons/fa";
 import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness } from "react-icons/io5";
+import { useState } from "react";
 
 export default function Home() {
   const marqueeDuration = Math.max(15, Math.round(MINOR_DONORS.length * 0.15));
+  const [copiedText, setCopiedText] = useState("");
+
+  const handleCopy = (text, label) => {
+    navigator.clipboard.writeText(text);
+    setCopiedText(label);
+    setTimeout(() => setCopiedText(""), 2000);
+  };
+
   return (
     <>
       {/* ── Navigation ── */}
@@ -196,13 +207,33 @@ export default function Home() {
                 <br />
                 Scan and Donate
               </p>
-              <div style={{ marginTop: 8, textAlign: "center", width: "100%" }}>
-                <p style={{ fontWeight: 700, fontSize: 13, color: "var(--text-charcoal)" }}>
-                  SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI
-                </p>
-                <p style={{ fontFamily: "var(--font-body)", fontSize: 12, color: "var(--text-secondary)", marginTop: 4, wordBreak: "break-all" }}>
-                  UPI ID: <span style={{ fontWeight: 700, color: "var(--text-charcoal)" }}>QR919483056445-0815@unionbankofindia</span>
-                </p>
+              <div style={{ marginTop: 8, textAlign: "left", width: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
+                <div>
+                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / Account Name</p>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI</span>
+                    <button 
+                      onClick={() => handleCopy("SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI", "name")}
+                      style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
+                    >
+                      <FaCopy size={14} />
+                      {copiedText === "name" ? "Copied!" : "Copy"}
+                    </button>
+                  </div>
+                </div>
+                <div>
+                  <p className="bank-field__label">UPI ID</p>
+                  <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
+                    <span className="bank-field__value" style={{ fontSize: 16, wordBreak: "break-all" }}>QR919483056445-0815@unionbankofindia</span>
+                    <button 
+                      onClick={() => handleCopy("QR919483056445-0815@unionbankofindia", "upi")}
+                      style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
+                    >
+                      <FaCopy size={14} />
+                      {copiedText === "upi" ? "Copied!" : "Copy"}
+                    </button>
+                  </div>
+                </div>
               </div>
               <div className="qr-card__bhim-container">
                 <img
