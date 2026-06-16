@@ -55,11 +55,11 @@ jobs:
           cache-to: type=gha,mode=max
 
       - name: Trigger Keel Webhook
-        if: github.event_name != 'pull_request'
-        uses: Toasterson/keel-webhook-action@master
-        with:
-          keel-url: "https://keel-webhook.chauvet.dev/v1/webhooks/native"
-          keel-username: ${{ secrets.KEEL_USER }}
-          keel-password: ${{ secrets.KEEL_PASSWORD }}
-          image: "ghcr.io/${{ env.IMAGE_NAME }}"
-          image-tag: "latest"
+        run: |
+          curl -L -i -X POST "https://keel-webhook.chauvet.dev/v1/webhooks/native" \
+            -u "${{ secrets.KEEL_USER }}:${{ secrets.KEEL_PASSWORD }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "name": "ghcr.io/${{ env.IMAGE_NAME }}",
+              "tag": "latest"
+            }'
