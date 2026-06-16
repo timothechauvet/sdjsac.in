@@ -1,0 +1,432 @@
+import { FaWhatsapp, FaInstagram, FaFacebookF } from "react-icons/fa";
+import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness } from "react-icons/io5";
+
+export default function Home() {
+  const marqueeDuration = Math.max(15, Math.round(MINOR_DONORS.length * 0.15));
+  return (
+    <>
+      {/* ── Navigation ── */}
+      <nav className="nav" id="top">
+        <div className="nav__brand">
+          <span className="nav__brand-kn">ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</span>
+          <span className="nav__brand-en">SUMERU DIGAMBARA JAIN SABHA</span>
+        </div>
+
+        <div className="nav__links">
+          <a className="nav__link" href="#projects">
+            ಯೋಜನೆಗಳು PROJECTS
+          </a>
+          <a className="nav__link" href="#donors">
+            ದಾನಿಗಳು DONORS
+          </a>
+          <a className="nav__link" href="#contact">
+            ಸಂಪರ್ಕ CONTACT
+          </a>
+        </div>
+
+        <a className="nav__cta" href="#donate">
+          ಈಗಲೇ ದಾನ ಮಾಡಿ DONATE NOW
+        </a>
+      </nav>
+
+      {/* ── Main Content ── */}
+      <main className="main container">
+        {/* ── Header ── */}
+        <header className="hero-section">
+          <div className="hero-content">
+            <h1 className="headline-lg-mobile" style={{ marginBottom: 4 }}>
+              ಸುಮೇರು ದಿಗಂಬರಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
+            </h1>
+            <p className="bilingual-english-sub" style={{ marginBottom: 24 }}>
+              Sumeru Digambara Jain Sabha, Adagalale-Chandolli
+            </p>
+
+            <div className="gold-border-box">
+              <h2>
+                ಭಗವಾನ್ ಶ್ರೀ 1008 ಮಲ್ಲಿನಾಥ ತೀರ್ಥಂಕರರ 11 ಅಡಿ ಎತ್ತರದ ಪ್ರತಿಮೆ
+                ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ
+              </h2>
+              <p className="bilingual-english-sub">
+                A Jain temple containing an 11-foot-tall statue of Bhagwan Shree 1008 Mallinath Tirthankara
+                is currently under construction.
+              </p>
+            </div>
+          </div>
+          <div className="hero-image-placeholder">
+            IMAGE PLACEHOLDER
+          </div>
+        </header>
+
+        {/* ── Project Status ── */}
+        <section id="projects">
+          <div className="section-heading">
+            <h3>ಯೋಜನೆಯ ಸ್ಥಿತಿ (Project Status)</h3>
+          </div>
+
+          <div className="status-grid" style={{ marginBottom: 24 }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+              <StatusItem complete title="ವಿಗ್ರಹ ಸ್ಥಾಪನೆ (Statue Installation)" sub="Complete" />
+              <StatusItem title="ಸಭಾ ಭವನ (Sabha Bhavana)" sub="In Progress" />
+            </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+              <StatusItem title="ಗ್ರಂಥಾಲಯ (Library)" sub="In Progress" />
+              <StatusItem title="ತ್ಯಾಗಿ ನಿವಾಸ (Tyagi Nivas)" sub="In Progress" />
+            </div>
+          </div>
+
+          <div className="milestone-banner">
+            <p className="milestone-banner__title">
+              ಮೈಲಿಗಲ್ಲು: ಭವ್ಯ ಉದ್ಘಾಟನೆ 2027 ರ ಕೊನೆಯಲ್ಲಿ
+            </p>
+            <p className="bilingual-english-sub">
+              Milestone: Grand Inauguration Late 2027
+            </p>
+          </div>
+        </section>
+
+        {/* ── Inaugural Milestone ── */}
+        <section>
+          <div className="inaugural-card">
+            <div style={{ position: "relative", zIndex: 1 }}>
+              <h3>ಶ್ರೀ ಜಿನಬಿಂಬ ಸ್ಥಾಪನಾ ಮಹೋತ್ಸವ</h3>
+              <p
+                className="bilingual-english-sub"
+                style={{ fontWeight: 700, marginBottom: 24 }}
+              >
+                Inaugural Jinabimba Installation Ceremony (04-05-2026)
+              </p>
+
+              <div className="inaugural-card__body">
+                <p>
+                  ಪರಮ ಪೂಜ್ಯ ಆಚಾರ್ಯ ಶ್ರೀ 108 ವಿದ್ಯಾಸಾಗರ ಮಹಾರಾಜರ ಆಶೀರ್ವಾದ
+                  ಮತ್ತು ಮುನಿ ಶ್ರೀ 108 ವಿದಿತ ಸಾಗರ ಮಹಾರಾಜರ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ
+                  ಜೈಪುರದಿಂದ 11 ಅಡಿ ಖಡ್ಗಾಸನ ಜಿನಬಿಂಬದ ಆಗಮನ.
+                </p>
+                <p className="bilingual-english-sub">
+                  Arrival of the 11ft Khadgasana Jinabimba from Jaipur under the
+                  divine blessings of Acharya Shri 108 Vidyasagar Maharaj and
+                  the spiritual guidance of Muni Shri 108 Vidith Sagar Maharaj.
+                </p>
+              </div>
+
+              <div className="image-placeholder">IMAGE PLACEHOLDER</div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Financial Remittance / Donate ── */}
+        <section id="donate">
+          <div className="section-heading">
+            <h3>ಹಣಕಾಸು ಪಾವತಿ (Financial Remittance)</h3>
+          </div>
+
+          <div className="donate-grid">
+            {/* UPI QR Card */}
+            <div className="qr-card">
+              <div className="qr-card__header">
+                <IoQrCode style={{ color: "var(--accent-gold)", fontSize: 20 }} />
+                <h4>ಯುಪಿಐ ಪಾವತಿ (UPI QR)</h4>
+              </div>
+              <div className="qr-card__qr-wrapper">
+                <img
+                  src="/images/qr_upi.webp"
+                  alt="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
+                  className="qr-card__qr-image"
+                />
+              </div>
+              <p className="body-sm" style={{ color: "var(--text-secondary)", marginTop: 12 }}>
+                ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ದಾನ ಮಾಡಿ
+                <br />
+                Scan and Donate
+              </p>
+              <div style={{ marginTop: 8, textAlign: "center", width: "100%" }}>
+                <p style={{ fontWeight: 700, fontSize: 13, color: "var(--text-charcoal)" }}>
+                  SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI
+                </p>
+                <p style={{ fontFamily: "var(--font-body)", fontSize: 12, color: "var(--text-secondary)", marginTop: 4, wordBreak: "break-all" }}>
+                  UPI ID: <span style={{ fontWeight: 700, color: "var(--text-charcoal)" }}>QR919483056445-0815@unionbankofindia</span>
+                </p>
+              </div>
+              <div className="qr-card__bhim-container">
+                <img
+                  src="/images/bhim_upi.webp"
+                  alt="BHIM UPI Logo"
+                  className="qr-card__bhim-logo"
+                />
+              </div>
+            </div>
+
+            {/* Bank Card (Wire Transfer) */}
+            <div className="bank-card">
+              <div className="bank-card__header">
+                <IoBusiness style={{ color: "var(--accent-gold)", fontSize: 20 }} />
+                <h4>ಬ್ಯಾಂಕ್ ವಿವರಗಳು (Bank Details)</h4>
+              </div>
+              <div className="bank-card__logo-container">
+                <img
+                  src="/images/union_bank.webp"
+                  alt="Union Bank of India"
+                  className="bank-card__bank-logo"
+                />
+              </div>
+              <div className="bank-grid">
+                <BankField label="ಖಾತೆ ಹೆಸರು / ACCOUNT NAME" value="M/S SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI" />
+                <BankField label="ಬ್ಯಾಂಕ್ / BANK" value="UNION BANK OF INDIA" />
+                <BankField label="ಖಾತೆ ಸಂಖ್ಯೆ / ACCOUNT NUMBER" value="328422010000615" />
+                <BankField label="ಐಎಫ್‌ಎಸ್‌ಸಿ ಕೋಡ್ / IFSC CODE" value="UBIN0932841" />
+                <div style={{ gridColumn: "1 / -1" }}>
+                  <BankField label="ಶಾಖೆ ವಿವರಗಳು / BRANCH ADDRESS" value="Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577401, India" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Donor Board ── */}
+        <section id="donors">
+          {/* Major Donors */}
+          <div style={{ marginBottom: 48 }}>
+            <p className="donor-category-label">
+              ಉದಾರ ದಾನಿಗಳು / Generous Donors (&gt; 1 Lakh)
+            </p>
+            <div className="donor-major-grid">
+              <DonorMajor nameKn="ಶ್ರೀ ಸತೀಶ್ ಕುಮಾರ್ ಮತ್ತು ಕುಟುಂಬ" nameEn="Shri Satish Kumar & Family" amount="₹ 5,00,000" />
+              <DonorMajor nameKn="ಶ್ರೀಮತಿ ಲೀಲಾ ಜೈನ್" nameEn="Smt. Leela Jain" amount="₹ 2,50,000" />
+              <DonorMajor nameKn="ಆಡಗಳಲೆ ಸಮಾಜ ಬಾಂಧವರು" nameEn="Adagalale Community Members" amount="₹ 1,00,000" />
+            </div>
+          </div>
+
+          {/* Minor Donors */}
+          <div>
+            <p className="donor-category-label">
+              ದಾನಿಗಳು / Donors (&lt; 1 Lakh)
+            </p>
+            <div className="donor-marquee-container">
+              <div className="donor-marquee-content" style={{ animationDuration: `${marqueeDuration}s` }}>
+                <div className="donor-minor-grid">
+                  {MINOR_DONORS.map((donor, idx) => (
+                    <DonorMinor key={idx} {...donor} />
+                  ))}
+                </div>
+                <div className="donor-minor-grid" aria-hidden="true">
+                  {MINOR_DONORS.map((donor, idx) => (
+                    <DonorMinor key={`dup-${idx}`} {...donor} />
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Gallery ── */}
+        <section id="gallery">
+          <div className="section-heading">
+            <h3>ನಮ್ಮ ಗ್ಯಾಲರಿ (Our Gallery)</h3>
+          </div>
+
+          <div className="gallery-wrapper">
+            <div className="gallery-grid">
+              {[
+                "Statue close-up",
+                "Temple exterior",
+                "Ritual ceremony",
+                "Community prayer",
+                "Pillar carvings",
+                "Spiritual procession",
+              ].map((alt, i) => (
+                <div key={i} className="gallery-item">
+                  {alt.toUpperCase()}
+                </div>
+              ))}
+            </div>
+            <div className="gallery-fade">
+              <a
+                className="btn-outline"
+                href="https://www.instagram.com/sumeru_digambara_jain_sabha/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram style={{ fontSize: 20 }} />
+                ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್‌ನಲ್ಲಿ ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ / FOLLOW US ON INSTAGRAM
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Location ── */}
+        <section>
+          <div className="section-heading">
+            <h3>ಸ್ಥಳ ಮತ್ತು ನಿರ್ದೇಶಾಂಕಗಳು (Visit / Location)</h3>
+          </div>
+
+          <div className="location-grid">
+            <div className="location-info">
+              <div>
+                <p className="location-info__address">
+                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಉತ್ತರ ಕನ್ನಡ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ
+                </p>
+                <p className="bilingual-english-sub">
+                  Adagalale-Chandolli, Uttara Kannada District, Karnataka
+                </p>
+              </div>
+              <a
+                className="btn-full"
+                href="https://maps.app.goo.gl/TjaUHYm6Lo3em7sr6"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IoLocationSharp size={20} />
+                <span>
+                  ಗೂಗಲ್ ಮ್ಯಾಪ್ಸ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ (Open in Google Maps)
+                </span>
+              </a>
+            </div>
+            <div className="location-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1936.013362740682!2d74.8117103!3d13.9570144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc7b0043fe370d%3A0x70049cc10bd865e5!2sSumeru%20Digambara%20Jain%20Sabha%2C%20Adagalale-Chandolli!5e0!3m2!1sen!2sfr!4v1781599626649!5m2!1sen!2sfr"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* ── Footer ── */}
+      <footer className="footer" id="contact">
+        <div className="footer__inner">
+          <div style={{ flex: 1 }}>
+            <div className="footer__brand">
+              <h2>ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</h2>
+              <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.1em" }}>
+                SUMERU DIGAMBARA JAIN SABHA
+              </p>
+            </div>
+
+            <div className="social-grid">
+              <a href="mailto:contact@sumerujain.org" className="social-button">
+                <div className="social-button__icon">
+                  <IoMail />
+                </div>
+                <span className="social-button__label">ಇಮೇಲ್</span>
+                <span className="social-button__value">contact@sumerujain.org</span>
+              </a>
+
+              <a href="https://wa.me/919800000000" className="social-button" target="_blank" rel="noopener noreferrer">
+                <div className="social-button__icon">
+                  <FaWhatsapp />
+                </div>
+                <span className="social-button__label">ವಾಟ್ಸಾಪ್</span>
+                <span className="social-button__value">+91 98XXX XXXXX</span>
+              </a>
+
+              <a href="https://www.instagram.com/sumeru_digambara_jain_sabha/" className="social-button" target="_blank" rel="noopener noreferrer">
+                <div className="social-button__icon">
+                  <FaInstagram />
+                </div>
+                <span className="social-button__label">ಇನ್ಸ್ಟಾಗ್ರಾಮ್</span>
+                <span className="social-button__value">@sumeru_digambara...</span>
+              </a>
+
+              <a href="https://www.facebook.com/profile.php?id=61590645158390" className="social-button" target="_blank" rel="noopener noreferrer">
+                <div className="social-button__icon">
+                  <FaFacebookF />
+                </div>
+                <span className="social-button__label">ಫೇಸ್ಬುಕ್</span>
+                <span className="social-button__value">Profile</span>
+              </a>
+            </div>
+          </div>
+
+          <div className="footer__copyright">
+            <p>
+              © 2026 ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.
+            </p>
+            <p className="footer__copyright-en">All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+}
+
+/* ── Tiny inline components ── */
+
+function StatusItem({ complete, title, sub }) {
+  return (
+    <div className="status-item">
+      {complete ? (
+        <IoCheckmarkCircleSharp className="status-item__icon status-item__icon--complete" size={24} />
+      ) : (
+        <IoHourglassOutline className="status-item__icon status-item__icon--pending" size={24} />
+      )}
+      <div>
+        <p className="status-item__title">{title}</p>
+        <p className="bilingual-english-sub">{sub}</p>
+      </div>
+    </div>
+  );
+}
+
+function BankField({ label, value }) {
+  return (
+    <div>
+      <p className="bank-field__label">{label}</p>
+      <p className="bank-field__value">{value}</p>
+    </div>
+  );
+}
+
+function DonorMajor({ nameKn, nameEn, amount }) {
+  return (
+    <div className="donor-major-item">
+      <div>
+        <p className="donor-major-item__name">{nameKn}</p>
+        <p className="donor-major-item__sub">{nameEn}</p>
+      </div>
+      <p className="donor-major-item__amount">{amount}</p>
+    </div>
+  );
+}
+
+function DonorMinor({ nameKn, nameEn, amount }) {
+  return (
+    <div className="donor-minor-item">
+      <p className="donor-minor-item__name">
+        {nameKn} <span className="donor-minor-item__amount" style={{ marginLeft: 6 }}>{amount}</span>
+      </p>
+      <p className="donor-minor-item__sub">{nameEn}</p>
+    </div>
+  );
+}
+
+const MINOR_DONORS = [
+  { nameKn: "ಶ್ರೀ ಭಕ್ತ", nameEn: "Shri Bhakta", amount: "₹ 5,001" },
+  { nameKn: "ಶ್ರೀ ದಾನಿ", nameEn: "Shri Daani", amount: "₹ 2,001" },
+  { nameKn: "ಶ್ರೀ ಉದಾರಿ", nameEn: "Shri Udaari", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಧರ್ಮ", nameEn: "Shri Dharma", amount: "₹ 501" },
+  { nameKn: "ಶ್ರೀ ಭಕ್ತ", nameEn: "Shri Bhakta", amount: "₹ 5,001" },
+  { nameKn: "ಶ್ರೀ ದಾನಿ", nameEn: "Shri Daani", amount: "₹ 2,001" },
+  { nameKn: "ಶ್ರೀ ಉದಾರಿ", nameEn: "Shri Udaari", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಧರ್ಮ", nameEn: "Shri Dharma", amount: "₹ 501" },
+  { nameKn: "ಶ್ರೀ ಜಯ", nameEn: "Shri Jaya", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ವಿಜಯ", nameEn: "Shri Vijaya", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಭಕ್ತ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ದಾನಿ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಉದಾರಿ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಧರ್ಮ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಭಕ್ತ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ದಾನಿ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಉದಾರಿ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಧರ್ಮ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಭಕ್ತ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ದಾನಿ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಉದಾರಿ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಧರ್ಮ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ಜಯ", nameEn: "Donor", amount: "₹ 1,001" },
+  { nameKn: "ಶ್ರೀ ವಿಜಯ", nameEn: "Donor", amount: "₹ 1,001" }
+];
