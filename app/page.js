@@ -57,6 +57,30 @@ export default function Home() {
             alt="Sumeru Digambara Jain Sabha temple structure - ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ ದೇವಾಲಯ"
             className="hero-image"
           />
+
+          <div className="hero-info-grid">
+            <div className="info-box">
+              <h3>ಜೈನ ಧರ್ಮ ಮತ್ತು ಅಹಿಂಸೆ</h3>
+              <p>
+                ಅಹಿಂಸೆಯೇ ಜೈನ ಧರ್ಮದ ಪರಮ ಧರ್ಮ ಮತ್ತು ಮೂಲ ತತ್ವವಾಗಿದೆ. ಎಲ್ಲಾ ಜೀವಿಗಳೆಡೆಗೆ ದಯೆ, ಕರುಣೆ ಮತ್ತು ಗೌರವವನ್ನು ತೋರುವುದು ಇದರ ಮೂಲ ಸಾರವಾಗಿದೆ. ನಮ್ಮ ಸಂಸ್ಕೃತಿ ಮತ್ತು ಆಧ್ಯಾತ್ಮಿಕ ಪರಂಪರೆಯನ್ನು ಸಂರಕ್ಷಿಸಲು ಈ ಪುಣ್ಯಸ್ಥಳದಲ್ಲಿ ನೂತನ ಜಿನಾಲಯದ ನಿರ್ಮಾಣ ಅತ್ಯಂತ ಮಹತ್ವದ್ದಾಗಿದೆ.
+              </p>
+              <div className="committee-info">
+                <p><strong>ಅಧ್ಯಕ್ಷರು (President):</strong> ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್ (M.D. Jinadath Jain)</p>
+                <p><strong>ಕಾರ್ಯದರ್ಶಿ (Secretary):</strong> ಪವನ್ ಸಿ. ಜೈನ್ (Pavan C. Jain)</p>
+              </div>
+            </div>
+
+            <div className="info-box">
+              <h3>Jainism & Non-Violence</h3>
+              <p>
+                Non-violence (Ahimsa) is the supreme dharma and core tenet of Jainism, practicing absolute compassion toward all living beings. Constructing a new temple is crucial to preserve our spiritual heritage, enrich the community, and provide a sacred space for future generations.
+              </p>
+              <div className="committee-info">
+                <p><strong>President:</strong> M.D. Jinadath Jain</p>
+                <p><strong>Secretary:</strong> Pavan C. Jain</p>
+              </div>
+            </div>
+          </div>
         </header>
 
         {/* ── Project Status ── */}
