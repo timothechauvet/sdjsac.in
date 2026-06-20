@@ -346,6 +346,7 @@ export default function Home() {
               ಉದಾರ ದಾನಿಗಳು / Generous Donors (&gt; 1 Lakh)
             </p>
             <div className="donor-major-grid">
+              <DonorMajor nameKn="ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್" nameEn="M.D Jinadatta Jain" amount="₹ 5,00,000" />
               <DonorMajor nameKn="Timothé CHAUVET" nameEn="Paris, France" amount="₹ 2,20,000" link="https://timothechau.vet" />
               <DonorMajor nameKn="Dr. Adarsh JAIN" nameEn="Duisburg, Germany" amount="₹ 1,50,000" link="https://adarshjain.de" />
             </div>
@@ -622,7 +623,6 @@ function DonorMinor({ nameKn, nameEn, amount }) {
 }
 
 const MINOR_DONORS = [
-  { nameKn: "M.D ಜಿನದತ್ತ ಜೈನ್", nameEn: "M.D Jinadatta Jain", amount: "₹ 21,000" },
   { nameKn: "ಆದರ್ಶ A.J ಅಡಗಳಲೆ", nameEn: "Adarsha A.J, Adagalale", amount: "₹ 20,000" },
   { nameKn: "ಸವಿತಾ ಮನೋಹರ ಮತ್ತು ಮಕ್ಕಳು", nameEn: "Savitha Manohara and Children", amount: "₹ 12,000" },
   { nameKn: "ಸುಗುಣ ಪ್ರೇಮಕುಮಾರ್ ಮೇಲಂಜಿ", nameEn: "Suguna Premakumar, Melanji", amount: "₹ 11,000" },
