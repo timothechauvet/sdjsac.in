@@ -5,7 +5,7 @@ import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, Io
 import { useState } from "react";
 
 export default function Home() {
-  const marqueeDuration = Math.max(15, Math.round(MINOR_DONORS.length * 0.15));
+  const marqueeDuration = Math.max(28, Math.round(MINOR_DONORS.length * 0.35));
   const [copiedText, setCopiedText] = useState("");
 
   const handleCopy = (text, label) => {
@@ -114,59 +114,6 @@ export default function Home() {
             </div>
           </div>
         </header>
-
-        {/* ── Committee / ಸಮಿತಿ ── */}
-        <section id="committee">
-          <div className="section-heading">
-            <h3>ಸಮಿತಿ ಸದಸ್ಯರು (Committee Members)</h3>
-          </div>
-
-          <div className="committee-cards-grid">
-            {/* President */}
-            <div className="committee-member-card">
-              <div className="committee-member-photo" aria-label="President photo placeholder" />
-              <div className="committee-member-details">
-                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
-                  ಅಧ್ಯಕ್ಷರು / PRESIDENT
-                </p>
-                <h4 className="committee-member-name">ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>M.D. Jinadath Jain</p>
-                <div className="committee-member-info">
-                  <div className="committee-member-info-row">
-                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>+91 XXXXX XXXXX</span>
-                  </div>
-                  <div className="committee-member-info-row">
-                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>Adagalale-Chandolli, Uttara Kannada, Karnataka</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Secretary */}
-            <div className="committee-member-card">
-              <div className="committee-member-photo" aria-label="Secretary photo placeholder" />
-              <div className="committee-member-details">
-                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
-                  ಕಾರ್ಯದರ್ಶಿ / SECRETARY
-                </p>
-                <h4 className="committee-member-name">ಪವನ್ ಸಿ. ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>Pavan C. Jain</p>
-                <div className="committee-member-info">
-                  <div className="committee-member-info-row">
-                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>+91 XXXXX XXXXX</span>
-                  </div>
-                  <div className="committee-member-info-row">
-                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>Adagalale-Chandolli, Uttara Kannada, Karnataka</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* ── Project Status ── */}
         <section id="projects">
@@ -459,6 +406,60 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* ── Committee / ಸಮಿತಿ ── */}
+        <section id="committee">
+          <div className="section-heading">
+            <h3>ಸಮಿತಿ ಸದಸ್ಯರು (Committee Members)</h3>
+          </div>
+
+          <div className="committee-cards-grid">
+            {/* President */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="President photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ಅಧ್ಯಕ್ಷರು / PRESIDENT
+                </p>
+                <h4 className="committee-member-name">ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>M.D. Jinadath Jain</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>+91 XXXXX XXXXX</span>
+                  </div>
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale-Chandolli, Uttara Kannada, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Secretary */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Secretary photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ಕಾರ್ಯದರ್ಶಿ / SECRETARY
+                </p>
+                <h4 className="committee-member-name">ಪವನ್ ಸಿ. ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>Pavan C. Jain</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>+91 XXXXX XXXXX</span>
+                  </div>
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale-Chandolli, Uttara Kannada, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         {/* ── Location ── */}
         <section>
