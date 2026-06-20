@@ -33,4 +33,3 @@
 
 
 ---
-*Generated with care by Homardless 🦞*
