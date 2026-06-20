@@ -878,7 +878,7 @@ a {
 }
 
 .donor-marquee-container {
-  height: 200px;
+  height: 400px;
   overflow: hidden;
   position: relative;
   mask-image: linear-gradient(
