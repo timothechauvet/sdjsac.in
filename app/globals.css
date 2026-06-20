@@ -1214,3 +1214,70 @@ a {
 .animate-in {
   animation: fadeInUp 0.6s ease both;
 }
+/* ---------- Committee Members ---------- */
+.committee-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gutter);
+}
+
+@media (min-width: 768px) {
+  .committee-cards-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.committee-member-card {
+  border: 1px solid var(--text-charcoal);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.committee-member-photo {
+  width: 100%;
+  height: 200px;
+  background: var(--error);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.committee-member-photo::after {
+  content: "📷";
+  font-size: 48px;
+  opacity: 0.4;
+}
+
+.committee-member-details {
+  padding: 20px 24px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.committee-member-name {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-charcoal);
+  margin: 0;
+}
+
+.committee-member-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-top: 1px dashed var(--surface-variant);
+  padding-top: 12px;
+}
+
+.committee-member-info-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
