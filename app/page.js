@@ -430,7 +430,7 @@ export default function Home() {
                   </div>
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>Adagalale-Chandolli, Uttara Kannada, Karnataka</span>
+                    <span>Adagalale, Shivamogga, Karnataka</span>
                   </div>
                 </div>
               </div>
@@ -452,7 +452,7 @@ export default function Home() {
                   </div>
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>Adagalale-Chandolli, Uttara Kannada, Karnataka</span>
+                    <span>Adagalale, Shivamogga, Karnataka</span>
                   </div>
                 </div>
               </div>
@@ -471,10 +471,10 @@ export default function Home() {
             <div className="location-info">
               <div>
                 <p className="location-info__address">
-                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಉತ್ತರ ಕನ್ನಡ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ
+                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ
                 </p>
                 <p className="bilingual-english-sub">
-                  Adagalale-Chandolli, Uttara Kannada District, Karnataka
+                  Adagalale-Chandolli, Shivamogga District, Karnataka
                 </p>
               </div>
               <a
