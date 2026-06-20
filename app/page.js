@@ -1,6 +1,7 @@
 "use client";
 
 import { FaWhatsapp, FaInstagram, FaFacebookF, FaCopy } from "react-icons/fa";
+import { QRCodeSVG } from "qrcode.react";
 import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness, IoCall } from "react-icons/io5";
 import { useState } from "react";
 
@@ -193,13 +194,13 @@ export default function Home() {
                 <h4>ಯುಪಿಐ ಪಾವತಿ (UPI QR)</h4>
               </div>
               <div className="qr-card__qr-wrapper">
-                <img
-                  src="/images/qr_upi.webp"
-                  alt="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
+                <QRCodeSVG
+                  value="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
+                  title="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
+                  size={240}
+                  level="M"
+                  includeMargin={true}
                   className="qr-card__qr-image"
-                  width="240"
-                  height="240"
-                  loading="lazy"
                 />
               </div>
               <p className="body-sm" style={{ color: "var(--text-secondary)", marginTop: 12, textAlign: "center", width: "100%" }}>
