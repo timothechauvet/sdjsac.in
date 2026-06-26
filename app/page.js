@@ -668,7 +668,7 @@ const MINOR_DONORS = [
   { nameKn: "ಸ್ಫೂರ್ತಿ, ಕೀರ್ತಿ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Spurthi, Keerthi Jain, Adagalale", amount: "₹ 2,030" },
   { nameKn: "ಉದಂಕ, ಉಲ್ಲಾಸ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Udanka, Ullas Jain, Adagalale", amount: "₹ 2,020" },
   { nameKn: "ಆರ್ವಿ, ಪ್ರೀತಮ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Arvi, Preetham Jain, Adagalale", amount: "₹ 2,016" },
-  { nameKn: "ಚೂಡರತ್ನ ಎ. ಎನ್., ಆಡಗಳಲೆ", nameEn: "Chudarathna A. N., Adagalale", amount: "₹ 2,000" },
+  { nameKn: "ಕಲಾವತಿ ಚೂಡರತ್ನ ಎ. ಎನ್., ಆಡಗಳಲೆ", nameEn: "Kalavathi Chudarathna A. N., Adagalale", amount: "₹ 2,000" },
   { nameKn: "ಸುಧಾ ಸೋಮರಾಜ್ ಜೈನ್, ಬಂಗ್ಲಿ, ಆಡಗಳಲೆ", nameEn: "Sudha Somaraj Jain, Bangli, Adagalale", amount: "₹ 2,000" },
   { nameKn: "ನಾಗಮ್ಮ ದ್ಯಾವಪ್ಪ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Nagamma Dhyavappa Jain, Adagalale", amount: "₹ 2,000" },
   { nameKn: "ಕಿರಣ ಪುಟ್ಟಸ್ವಾಮಿ ಜೈನ್, ಚಂದೊಳ್ಳಿ", nameEn: "Kirana Puttaswami Jain, Chandoli", amount: "₹ 2,000" },
