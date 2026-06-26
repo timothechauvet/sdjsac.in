@@ -96,6 +96,7 @@ export default function Home() {
                 <p><strong>Support & Guidance:</strong> Pratishthacharya Pratimadhari Shri Manik Shripal Chandagade Bayyaji and Ba.Bra. Mahaveera Bayyaji</p>
                 <p><strong>President:</strong> M.D. Jinadatta Jain</p>
                 <p><strong>Secretary:</strong> Pavan C. Jain</p>
+                <p><strong>Assistant Secretaries:</strong> Ashok A. D and Sunil A. C</p>
                 <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
               </div>
             </div>
@@ -108,8 +109,9 @@ export default function Home() {
               <div className="committee-info">
                 <p style={{ marginTop: 8 }}><strong>ಆಶೀರ್ವಾದ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಚರ್ಯಾ ಶಿರೋಮಣಿ ಪರಮಪೂಜ್ಯ ಮುನಿ ಶ್ರೀ 108 ವಿದಿತಸಾಗರ ಮಹಾರಾಜರು</p>
                 <p><strong>ಬೆಂಬಲ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಪ್ರತಿಷ್ಠಾಚಾರ್ಯ ಪ್ರತಿಮಾಧಾರಿ ಶ್ರೀ ಮಾಣಿಕ ಶ್ರೀಪಾಲ ಚಂದಗಡೆ ಬಯ್ಯಾಜಿ ಮತ್ತು ಬಾ.ಬ್ರ. ಮಹಾವೀರ ಬಯ್ಯಾಜಿಯವರು</p>
-                <p><strong>ಅಧ್ಯಕ್ಷರು (President):</strong> ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್ (M.D. Jinadatta Jain)</p>
-                <p><strong>ಕಾರ್ಯದರ್ಶಿ (Secretary):</strong> ಪವನ್ ಸಿ. ಜೈನ್ (Pavan C. Jain)</p>
+                <p><strong>ಅಧ್ಯಕ್ಷರು:</strong> ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್</p>
+                <p><strong>ಕಾರ್ಯದರ್ಶಿ:</strong> ಪವನ್ ಸಿ. ಜೈನ್</p>
+                <p><strong>ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿಗಳು:</strong> ಅಶೋಕ್ ಎ. ಡಿ ಮತ್ತು ಸುನಿಲ್ ಎ. ಸಿ</p>
                 <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ಸಂತೋಷ್. ಡಿ</a> (ಎಂಜಿನಿಯರ್)</p>
               </div>
             </div>
