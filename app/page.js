@@ -350,7 +350,7 @@ export default function Home() {
             </p>
             <div className="donor-major-grid">
               <DonorMajor nameKn="ರೇವತಿ ಜಿನದತ್ತ ಎಂ. ಡಿ., ಮಡದೂರು, ಆಡಗಳಲೆ" nameEn="Revathi Jinadatta M.D., Madadur, Adagalale" amount="₹ 5,00,000" />
-              <DonorMajor nameKn="Timothé CHAUVET" nameEn="Paris, France" amount="₹ 2,20,000" link="https://timothechau.vet" />
+              <DonorMajor nameKn="ತಿಮೊಥೆ ಶಾವೆ, ಪ್ಯಾರಿಸ್, ಫ್ರಾನ್ಸ್" nameEn="Timothé Chauvet, Paris, France" amount="₹ 2,20,000" link="https://timothechau.vet" />
               <DonorMajor nameKn="ಡಾ. ಆದರ್ಶ್ ಜೈನ್, ಡುಯಿಸ್ಬರ್ಗ್, ಜರ್ಮನಿ" nameEn="Dr. Adarsh Jain, Duisburg, Germany" amount="₹ 2,00,000" link="https://adarshjain.de" />
             </div>
           </div>
@@ -595,19 +595,38 @@ function BankField({ label, value }) {
 }
 
 function DonorMajor({ nameKn, nameEn, amount, link }) {
+  const [firstKn, ...restKnParts] = nameKn.split(", ");
+  const [firstEn, ...restEnParts] = nameEn.split(", ");
+  const restKn = restKnParts.join(", ");
+  const restEn = restEnParts.join(", ");
+
   return (
     <div className="donor-major-item">
       <div>
         <p className="donor-major-item__name">
           {link ? (
-            <a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
-              {nameKn}
-            </a>
+            <>
+              <a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
+                {firstKn}
+              </a>
+              {restKn ? `, ${restKn}` : ""}
+            </>
           ) : (
             nameKn
           )}
         </p>
-        <p className="donor-major-item__sub">{nameEn}</p>
+        <p className="donor-major-item__sub">
+          {link ? (
+            <>
+              <a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
+                {firstEn}
+              </a>
+              {restEn ? `, ${restEn}` : ""}
+            </>
+          ) : (
+            nameEn
+          )}
+        </p>
       </div>
       <p className="donor-major-item__amount">{amount}</p>
     </div>
