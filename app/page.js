@@ -132,12 +132,12 @@ export default function Home() {
 
           <div className="status-grid" style={{ marginBottom: 24 }}>
             <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-              <StatusItem complete title="ವಿಗ್ರಹ ಸ್ಥಾಪನೆ (Statue Installation)" sub="Complete" />
-              <StatusItem title="ಸಭಾ ಭವನ (Sabha Bhavana)" sub="In Progress" />
+              <StatusItem complete title="ವಿಗ್ರಹ ಸ್ಥಾಪನೆ (Statue Installation / प्रतिमा स्थापना)" sub="Complete / पूर्ण" />
+              <StatusItem title="ಸಭಾ ಭವನ (Sabha Bhavana / सभा भवन)" sub="In Progress / प्रगति पर" />
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-              <StatusItem title="ಗ್ರಂಥಾಲಯ (Library)" sub="In Progress" />
-              <StatusItem title="ತ್ಯಾಗಿ ನಿವಾಸ (Tyagi Nivas)" sub="In Progress" />
+              <StatusItem title="ಗ್ರಂಥಾಲಯ (Library / पुस्तकालय)" sub="In Progress / प्रगति पर" />
+              <StatusItem title="ತ್ಯಾಗಿ ನಿವಾಸ (Tyagi Nivas / त्यागी निवास)" sub="In Progress / प्रगति पर" />
             </div>
           </div>
 
@@ -211,7 +211,7 @@ export default function Home() {
             <div className="qr-card">
               <div className="qr-card__header">
                 <IoQrCode style={{ color: "var(--accent-gold)", fontSize: 20 }} />
-                <h4>ಯುಪಿಐ ಪಾವತಿ (UPI QR)</h4>
+                <h4>ಯುಪಿಐ ಪಾವತಿ (UPI QR / यूपीआई क्यूआर)</h4>
               </div>
               <div className="qr-card__qr-wrapper">
                 <QRCodeSVG
@@ -274,7 +274,7 @@ export default function Home() {
             <div className="bank-card">
               <div className="bank-card__header">
                 <IoBusiness style={{ color: "var(--accent-gold)", fontSize: 20 }} />
-                <h4>ಬ್ಯಾಂಕ್ ವಿವರಗಳು (Bank Details)</h4>
+                <h4>ಬ್ಯಾಂಕ್ ವಿವರಗಳು (Bank Details / बैंक विवरण)</h4>
               </div>
               <div className="bank-card__logo-container">
                 <img
@@ -443,10 +443,11 @@ export default function Home() {
               <div className="committee-member-photo" aria-label="President photo placeholder" />
               <div className="committee-member-details">
                 <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
-                  ಅಧ್ಯಕ್ಷರು / PRESIDENT
+                  ಅಧ್ಯಕ್ಷರು / PRESIDENT / अध्यक्ष
                 </p>
                 <h4 className="committee-member-name">ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>M.D. Jinadatta Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>M.D. Jinadatta Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>एम.डी. जिनदत्त जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
@@ -465,10 +466,11 @@ export default function Home() {
               <div className="committee-member-photo" aria-label="Secretary photo placeholder" />
               <div className="committee-member-details">
                 <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
-                  ಕಾರ್ಯದರ್ಶಿ / SECRETARY
+                  ಕಾರ್ಯದರ್ಶಿ / SECRETARY / सचिव
                 </p>
                 <h4 className="committee-member-name">ಪವನ್ ಸಿ. ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>Pavan C. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Pavan C. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>पवन सी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
@@ -548,7 +550,7 @@ export default function Home() {
                 <div className="social-button__icon">
                   <IoMail />
                 </div>
-                <span className="social-button__label">ಇಮೇಲ್</span>
+                <span className="social-button__label">ಇಮೇಲ್ / EMAIL / ईमेल</span>
                 <span className="social-button__value">contact@sdjsac.in</span>
               </a>
 
@@ -556,7 +558,7 @@ export default function Home() {
                 <div className="social-button__icon">
                   <FaWhatsapp />
                 </div>
-                <span className="social-button__label">ವಾಟ್ಸಾಪ್</span>
+                <span className="social-button__label">ವಾಟ್ಸಾಪ್ / WHATSAPP / व्हाट्सऐप</span>
                 <span className="social-button__value">+33 60XXX XXXXX</span>
               </a>
 
@@ -564,7 +566,7 @@ export default function Home() {
                 <div className="social-button__icon">
                   <FaInstagram />
                 </div>
-                <span className="social-button__label">ಇನ್ಸ್ಟಾಗ್ರಾಮ್</span>
+                <span className="social-button__label">ಇನ್ಸ್ಟಾಗ್ರಾಮ್ / INSTAGRAM / इंस्टाग्राम</span>
                 <span className="social-button__value">@sumeru_digambara...</span>
               </a>
 
@@ -572,7 +574,7 @@ export default function Home() {
                 <div className="social-button__icon">
                   <FaFacebookF />
                 </div>
-                <span className="social-button__label">ಫೇಸ್ಬುಕ್</span>
+                <span className="social-button__label">ಫೇಸ್ಬುಕ್ / FACEBOOK / फ़ेसबुक</span>
                 <span className="social-button__value">Profile</span>
               </a>
             </div>
