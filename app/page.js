@@ -46,9 +46,18 @@ export default function Home() {
         {/* ── Header ── */}
         <header className="hero-section">
           <div className="hero-content">
-            <h1 className="headline-lg-mobile" style={{ marginBottom: 4 }}>
-              ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
-            </h1>
+            <div className="hero-title-row">
+              <img
+                src="/favicon-96x96.png"
+                alt="Sumeru Digambara Jain Sabha favicon"
+                className="hero-favicon"
+                width="96"
+                height="96"
+              />
+              <h1 className="headline-lg-mobile" style={{ marginBottom: 4 }}>
+                ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
+              </h1>
+            </div>
             <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
               Sumeru Digambara Jain Sabha, Adagalale-Chandolli
             </p>

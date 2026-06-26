@@ -346,6 +346,31 @@ a {
   }
 }
 
+.hero-title-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.hero-favicon {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .hero-title-row {
+    align-items: flex-start;
+  }
+
+  .hero-favicon {
+    width: 56px;
+    height: 56px;
+  }
+}
+
 .hero-images-container {
   display: flex;
   flex-direction: row;
