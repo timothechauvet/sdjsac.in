@@ -245,20 +245,25 @@ a {
   color: #fff;
   padding: 6px 12px;
   font-family: var(--font-body);
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   border: none;
   border-radius: 9999px;
   cursor: pointer;
   transition: background 0.2s, transform 0.1s;
-  white-space: nowrap;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 150px;
 }
 
 @media (min-width: 480px) {
   .nav__cta {
     padding: 8px 16px;
     font-size: 13px;
+    white-space: nowrap;
+    max-width: none;
   }
 }
 
