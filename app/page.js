@@ -347,9 +347,9 @@ export default function Home() {
               ಉದಾರ ದಾನಿಗಳು / Generous Donors (&gt; 1 Lakh)
             </p>
             <div className="donor-major-grid">
-              <DonorMajor nameKn="ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್" nameEn="M.D Jinadatta Jain" amount="₹ 5,00,000" />
+              <DonorMajor nameKn="ರೇವತಿ ಜಿನದತ್ತ ಎಂ. ಡಿ., ಮಡದೂರು, ಆಡಗಳಲೆ" nameEn="Revathi Jinadatta M.D., Madadur, Adagalale" amount="₹ 5,00,000" />
               <DonorMajor nameKn="Timothé CHAUVET" nameEn="Paris, France" amount="₹ 2,20,000" link="https://timothechau.vet" />
-              <DonorMajor nameKn="Dr. Adarsh JAIN" nameEn="Duisburg, Germany" amount="₹ 1,50,000" link="https://adarshjain.de" />
+              <DonorMajor nameKn="ಡಾ. ಆದರ್ಶ್ ಜೈನ್, ಡುಯಿಸ್ಬರ್ಗ್, ಜರ್ಮನಿ" nameEn="Dr. Adarsh Jain, Duisburg, Germany" amount="₹ 2,00,000" link="https://adarshjain.de" />
             </div>
           </div>
 
