@@ -255,7 +255,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "name" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
+                      {copiedText === "name" ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>
@@ -268,7 +268,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "upi" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
+                      {copiedText === "upi" ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>
@@ -311,7 +311,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "bank-name" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
+                      {copiedText === "bank-name" ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>
@@ -325,7 +325,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "bank" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
+                      {copiedText === "bank" ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>
@@ -339,7 +339,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "acc" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
+                      {copiedText === "acc" ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>
@@ -353,7 +353,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "ifsc" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
+                      {copiedText === "ifsc" ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>
@@ -367,7 +367,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "branch" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
+                      {copiedText === "branch" ? "Copied!" : "Copy"}
                     </button>
                   </div>
                 </div>
