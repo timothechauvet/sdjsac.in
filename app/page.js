@@ -134,7 +134,7 @@ export default function Home() {
             <div className="info-box">
               <h3>जैन धर्म और अहिंसा</h3>
               <p>
-                अहिंसा जैन धर्म का परम धर्म और मूल सिद्धांत है। सभी जीवों के प्रति दया, करुणा और सम्मान रखना इसका मूल सार है। हमारी संस्कृति और आध्यात्मिक परंपरा को संरक्षित करने, समाज को समृद्ध बनाने और आने वाली पीढ़ियों के लिए एक पवित्र स्थान प्रदान करने हेतु नए जिनालय का निर्माण अत्यंत महत्वपूर्ण है।
+                अहिंसा जैन धर्म का परम धर्म और मूल सिद्धांत है। सभी जीवों के प्रति दया, करुणा और सम्मान रखना इसका मूल सार है। हमारी संस्कृति और आध्यात्मिक परंपरा को संरक्षित करने, समाज को समृद्ध बनाने और आने वाली पीढ़ियों के लिए एक पवित्र स्थान प्रदान करने हेतु नया जिनालय का निर्माण अत्यंत महत्वपूर्ण है।
               </p>
               <div className="committee-info">
                 <p style={{ marginTop: 8 }}><strong>आशीर्वाद एवं मार्गदर्शन:</strong> चर्या शिरोमणि परमपूज्य मुनि श्री 108 विदितसागर महाराज</p>
@@ -269,7 +269,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <p className="bank-field__label">UPI ID / यूपीआई आईडी</p>
+                  <p className="bank-field__label">ಯುಪಿಐ ಐಡಿ / UPI ID / यूपीआई आईडी</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16, wordBreak: "break-all" }}>QR919483056445-0815@unionbankofindia</span>
                     <button 
@@ -342,9 +342,9 @@ export default function Home() {
                 <div>
                   <p className="bank-field__label">ಖಾತೆ ಸಂಖ್ಯೆ / ACCOUNT NUMBER / खाता संख्या</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-                    <span className="bank-field__value" style={{ fontSize: 16 }}>328422010000615</span>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>328422010000815</span>
                     <button 
-                      onClick={() => handleCopy("328422010000615", "acc")}
+                      onClick={() => handleCopy("328422010000815", "acc")}
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
@@ -370,9 +370,9 @@ export default function Home() {
                 <div style={{ gridColumn: "1 / -1" }}>
                   <p className="bank-field__label">ಶಾಖೆ ವಿವರಗಳು / BRANCH ADDRESS / शाखा पता</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-                    <span className="bank-field__value" style={{ fontSize: 16 }}>Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577401, India</span>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577453, India</span>
                     <button 
-                      onClick={() => handleCopy("Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577401, India", "branch")}
+                      onClick={() => handleCopy("Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577453, India", "branch")}
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
