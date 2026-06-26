@@ -26,13 +26,13 @@ export default function Home() {
 
         <div className="nav__links">
           <a className="nav__link" href="#projects">
-            ಯೋಜನೆಗಳು PROJECTS
+            ಯೋಜನೆಗಳು PROJECTS / परियोजनाएँ
           </a>
           <a className="nav__link" href="#donors">
-            ದಾನಿಗಳು DONORS
+            ದಾನಿಗಳು DONORS / दानदाता
           </a>
           <a className="nav__link" href="#contact">
-            ಸಂಪರ್ಕ CONTACT
+            ಸಂಪರ್ಕ CONTACT / संपर्क
           </a>
         </div>
 
@@ -49,8 +49,11 @@ export default function Home() {
             <h1 className="headline-lg-mobile" style={{ marginBottom: 4 }}>
               ಸುಮೇರು ದಿಗಂಬರಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
             </h1>
-            <p className="bilingual-english-sub" style={{ marginBottom: 24 }}>
+            <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
               Sumeru Digambara Jain Sabha, Adagalale-Chandolli
+            </p>
+            <p className="bilingual-english-sub" style={{ marginBottom: 24 }}>
+              सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
             </p>
 
             <div className="gold-border-box">
@@ -58,9 +61,12 @@ export default function Home() {
                 ಭಗವಾನ್ ಶ್ರೀ 1008 ಮಲ್ಲಿನಾಥ ತೀರ್ಥಂಕರರ 11 ಅಡಿ ಎತ್ತರದ ಪ್ರತಿಮೆ
                 ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ
               </h2>
-              <p className="bilingual-english-sub">
+              <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
                 A Jain temple containing an 11-foot-tall statue of Bhagwan Shree 1008 Mallinath Tirthankara
                 is currently under construction.
+              </p>
+              <p className="bilingual-english-sub">
+                भगवान श्री 1008 मल्लिनाथ तीर्थंकर की 11 फुट ऊँची प्रतिमा सहित एक जैन मंदिर वर्तमान में निर्माणाधीन है।
               </p>
             </div>
           </div>
@@ -121,7 +127,7 @@ export default function Home() {
         {/* ── Project Status ── */}
         <section id="projects">
           <div className="section-heading">
-            <h3>ಯೋಜನೆಯ ಸ್ಥಿತಿ (Project Status)</h3>
+            <h3>ಯೋಜನೆಯ ಸ್ಥಿತಿ (Project Status / परियोजना की स्थिति)</h3>
           </div>
 
           <div className="status-grid" style={{ marginBottom: 24 }}>
@@ -139,8 +145,11 @@ export default function Home() {
             <p className="milestone-banner__title">
               ಮೈಲಿಗಲ್ಲು: ಭವ್ಯ ಉದ್ಘಾಟನೆ 2027 ರ ಕೊನೆಯಲ್ಲಿ
             </p>
-            <p className="bilingual-english-sub">
+            <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
               Milestone: Grand Inauguration Late 2027
+            </p>
+            <p className="bilingual-english-sub">
+              मील का पत्थर: भव्य उद्घाटन 2027 के अंत में
             </p>
           </div>
         </section>
@@ -152,9 +161,15 @@ export default function Home() {
               <h3>ಶ್ರೀ ಜಿನಬಿಂಬ ಸ್ಥಾಪನಾ ಮಹೋತ್ಸವ</h3>
               <p
                 className="bilingual-english-sub"
-                style={{ fontWeight: 700, marginBottom: 24 }}
+                style={{ fontWeight: 700, marginBottom: 8 }}
               >
                 Inaugural Jinabimba Installation Ceremony (04-05-2026)
+              </p>
+              <p
+                className="bilingual-english-sub"
+                style={{ fontWeight: 700, marginBottom: 24 }}
+              >
+                उद्घाटन जिनबिंब स्थापना समारोह (04-05-2026)
               </p>
 
               <div className="inaugural-card__body">
@@ -163,10 +178,13 @@ export default function Home() {
                   ಮತ್ತು ಮುನಿ ಶ್ರೀ 108 ವಿದಿತ ಸಾಗರ ಮಹಾರಾಜರ ಮಾರ್ಗದರ್ಶನದಲ್ಲಿ
                   ಜೈಪುರದಿಂದ 11 ಅಡಿ ಖಡ್ಗಾಸನ ಜಿನಬಿಂಬದ ಆಗಮನ.
                 </p>
-                <p className="bilingual-english-sub">
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
                   Arrival of the 11ft Khadgasana Jinabimba from Jaipur under the
                   divine blessings of Acharya Shri 108 Vidyasagar Maharaj and
                   the spiritual guidance of Muni Shri 108 Vidith Sagar Maharaj.
+                </p>
+                <p className="bilingual-english-sub">
+                  आचार्य श्री 108 विद्यासागर महाराज के दिव्य आशीर्वाद और मुनि श्री 108 विदित सागर महाराज के आध्यात्मिक मार्गदर्शन में जयपुर से 11 फुट खड्गासन जिनबिंब का आगमन।
                 </p>
               </div>
 
@@ -185,7 +203,7 @@ export default function Home() {
         {/* ── Financial Remittance / Donate ── */}
         <section id="donate">
           <div className="section-heading">
-            <h3>ಹಣಕಾಸು ಪಾವತಿ (Financial Remittance)</h3>
+            <h3>ಹಣಕಾಸು ಪಾವತಿ (Financial Remittance / वित्तीय प्रेषण)</h3>
           </div>
 
           <div className="donate-grid">
@@ -209,6 +227,8 @@ export default function Home() {
                 ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ದಾನ ಮಾಡಿ
                 <br />
                 Scan and Donate
+                <br />
+                स्कैन करें और दान करें
               </p>
               <div style={{ marginTop: 8, textAlign: "left", width: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
                 <div>
@@ -346,7 +366,7 @@ export default function Home() {
           {/* Major Donors */}
           <div style={{ marginBottom: 48 }}>
             <p className="donor-category-label">
-              ಉದಾರ ದಾನಿಗಳು / Generous Donors (&gt; 1 Lakh)
+              ಉದಾರ ದಾನಿಗಳು / Generous Donors / उदार दानदाता (&gt; 1 Lakh)
             </p>
             <div className="donor-major-grid">
               <DonorMajor nameKn="ರೇವತಿ ಜಿನದತ್ತ ಎಂ. ಡಿ., ಮಡದೂರು, ಆಡಗಳಲೆ" nameEn="Revathi Jinadatta M.D., Madadur, Adagalale" amount="₹ 5,00,000" />
@@ -358,7 +378,7 @@ export default function Home() {
           {/* Minor Donors */}
           <div>
             <p className="donor-category-label">
-              ದಾನಿಗಳು / Donors (&lt; 1 Lakh)
+              ದಾನಿಗಳು / Donors / दानदाता (&lt; 1 Lakh)
             </p>
             <div className="donor-marquee-container">
               <div className="donor-marquee-content" style={{ animationDuration: `${marqueeDuration}s` }}>
@@ -380,7 +400,7 @@ export default function Home() {
         {/* ── Gallery ── */}
         <section id="gallery">
           <div className="section-heading">
-            <h3>ನಮ್ಮ ಗ್ಯಾಲರಿ (Our Gallery)</h3>
+            <h3>ನಮ್ಮ ಗ್ಯಾಲರಿ (Our Gallery / हमारी गैलरी)</h3>
           </div>
 
           <div className="gallery-wrapper">
@@ -405,7 +425,7 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 <FaInstagram style={{ fontSize: 20 }} />
-                ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್‌ನಲ್ಲಿ ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ / FOLLOW US ON INSTAGRAM
+                ಇನ್‌ಸ್ಟಾಗ್ರಾಮ್‌ನಲ್ಲಿ ನಮ್ಮನ್ನು ಅನುಸರಿಸಿ / FOLLOW US ON INSTAGRAM / इंस्टाग्राम पर हमें फ़ॉलो करें
               </a>
             </div>
           </div>
@@ -414,7 +434,7 @@ export default function Home() {
         {/* ── Committee / ಸಮಿತಿ ── */}
         <section id="committee">
           <div className="section-heading">
-            <h3>ಸಮಿತಿ ಸದಸ್ಯರು (Committee Members)</h3>
+            <h3>ಸಮಿತಿ ಸದಸ್ಯರು (Committee Members / समिति सदस्य)</h3>
           </div>
 
           <div className="committee-cards-grid">
@@ -468,7 +488,7 @@ export default function Home() {
         {/* ── Location ── */}
         <section>
           <div className="section-heading">
-            <h3>ಸ್ಥಳ ಮತ್ತು ನಿರ್ದೇಶಾಂಕಗಳು (Visit / Location)</h3>
+            <h3>ಸ್ಥಳ ಮತ್ತು ನಿರ್ದೇಶಾಂಕಗಳು (Visit / Location / स्थान)</h3>
           </div>
 
           <div className="location-grid">
@@ -477,8 +497,11 @@ export default function Home() {
                 <p className="location-info__address">
                   ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ
                 </p>
-                <p className="bilingual-english-sub">
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
                   Adagalale-Chandolli, Shivamogga District, Karnataka
+                </p>
+                <p className="bilingual-english-sub">
+                  अडगळले-चंदोल्ली, शिवमोग्गा जिला, कर्नाटक
                 </p>
               </div>
               <a
@@ -489,7 +512,7 @@ export default function Home() {
               >
                 <IoLocationSharp size={20} />
                 <span>
-                  ಗೂಗಲ್ ಮ್ಯಾಪ್ಸ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ (Open in Google Maps)
+                  ಗೂಗಲ್ ಮ್ಯಾಪ್ಸ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ (Open in Google Maps / गूगल मैप्स में देखें)
                 </span>
               </a>
             </div>
