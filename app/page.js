@@ -112,7 +112,7 @@ export default function Home() {
                 <p><strong>President:</strong> M.D. Jinadatta Jain</p>
                 <p><strong>Secretary:</strong> Pavan C. Jain</p>
                 <p><strong>Joint Secretaries:</strong> Ashok A. D and Sunil A. C</p>
-                <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
+                <p><strong>Planning & Engineering Drawings:</strong> Santhosh. D (Engineer), <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Golden Village For Image</a></p>
               </div>
             </div>
 
@@ -127,7 +127,7 @@ export default function Home() {
                 <p><strong>ಅಧ್ಯಕ್ಷರು:</strong> ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್</p>
                 <p><strong>ಕಾರ್ಯದರ್ಶಿ:</strong> ಪವನ್ ಸಿ. ಜೈನ್</p>
                 <p><strong>ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿಗಳು:</strong> ಅಶೋಕ್ ಎ. ಡಿ ಮತ್ತು ಸುನಿಲ್ ಎ. ಸಿ</p>
-                <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ಸಂತೋಷ್. ಡಿ</a> (ಎಂಜಿನಿಯರ್)</p>
+                <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> ಸಂತೋಷ್. ಡಿ (ಎಂಜಿನಿಯರ್), <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ಗೋಲ್ಡನ್ ವಿಲೇಜ್ ಫಾರ್ ಇಮೇಜ್</a></p>
               </div>
             </div>
 
@@ -142,7 +142,7 @@ export default function Home() {
                 <p><strong>अध्यक्ष:</strong> एम.डी. जिनदत्त जैन</p>
                 <p><strong>सचिव:</strong> पवन सी. जैन</p>
                 <p><strong>सहायक सचिव:</strong> अशोक ए. डी और सुनील ए. सी</p>
-                <p><strong>योजना और इंजीनियरिंग रेखाचित्र:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>संतोष डी.</a> (इंजीनियर)</p>
+                <p><strong>योजना और इंजीनियरिंग रेखाचित्र:</strong> संतोष डी. (इंजीनियर), <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>गोल्डन विलेज फॉर इमेज</a></p>
               </div>
             </div>
           </div>
