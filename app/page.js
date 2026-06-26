@@ -26,18 +26,18 @@ export default function Home() {
 
         <div className="nav__links">
           <a className="nav__link" href="#projects">
-            ಯೋಜನೆಗಳು PROJECTS / परियोजनाएँ
+            ಯೋಜನೆಗಳು / PROJECTS / परियोजनाएँ
           </a>
           <a className="nav__link" href="#donors">
-            ದಾನಿಗಳು DONORS / दानदाता
+            ದಾನಿಗಳು / DONORS / दानदाता
           </a>
           <a className="nav__link" href="#contact">
-            ಸಂಪರ್ಕ CONTACT / संपर्क
+            ಸಂಪರ್ಕ / CONTACT / संपर्क
           </a>
         </div>
 
         <a className="nav__cta" href="#donate">
-          ಈಗಲೇ ದಾನ ಮಾಡಿ DONATE NOW / अभी दान करें
+          ಈಗಲೇ ದಾನ ಮಾಡಿ / DONATE NOW / अभी दान करें
         </a>
       </nav>
 
