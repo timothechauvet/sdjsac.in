@@ -47,7 +47,7 @@ export default function Home() {
         <header className="hero-section">
           <div className="hero-content">
             <h1 className="headline-lg-mobile" style={{ marginBottom: 4 }}>
-              ಸುಮೇರು ದಿಗಂಬರಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
+              ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
             </h1>
             <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
               Sumeru Digambara Jain Sabha, Adagalale-Chandolli
