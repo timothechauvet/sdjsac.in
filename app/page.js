@@ -37,7 +37,7 @@ export default function Home() {
         </div>
 
         <a className="nav__cta" href="#donate">
-          ಈಗಲೇ ದಾನ ಮಾಡಿ DONATE NOW
+          ಈಗಲೇ ದಾನ ಮಾಡಿ DONATE NOW / अभी दान करें
         </a>
       </nav>
 
@@ -100,9 +100,9 @@ export default function Home() {
               <div className="committee-info">
                 <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidithsagara Maharaj</p>
                 <p><strong>Support & Guidance:</strong> Pratishthacharya Pratimadhari Shri Manik Shripal Chandagade Bayyaji and Ba.Bra. Mahaveera Bayyaji</p>
-                <p><strong>President:</strong> M.D. Jinadatta Jain</p>
-                <p><strong>Secretary:</strong> Pavan C. Jain</p>
-                <p><strong>Assistant Secretaries:</strong> Ashok A. D and Sunil A. C</p>
+                <p><strong>President / अध्यक्ष:</strong> M.D. Jinadatta Jain</p>
+                <p><strong>Secretary / सचिव:</strong> Pavan C. Jain</p>
+                <p><strong>Assistant Secretaries / सहायक सचिव:</strong> Ashok A. D and Sunil A. C</p>
                 <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
               </div>
             </div>
@@ -240,7 +240,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "name" ? "Copied!" : "Copy"}
+                      {copiedText === "name" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
                     </button>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "upi" ? "Copied!" : "Copy"}
+                      {copiedText === "upi" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
                     </button>
                   </div>
                 </div>
@@ -270,7 +270,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Bank Card (Wire Transfer) */}
+            {/* Bank Card (Wire Transfer / बैंक हस्तांतरण) */}
             <div className="bank-card">
               <div className="bank-card__header">
                 <IoBusiness style={{ color: "var(--accent-gold)", fontSize: 20 }} />
@@ -296,7 +296,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "bank-name" ? "Copied!" : "Copy"}
+                      {copiedText === "bank-name" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
                     </button>
                   </div>
                 </div>
@@ -310,7 +310,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "bank" ? "Copied!" : "Copy"}
+                      {copiedText === "bank" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
                     </button>
                   </div>
                 </div>
@@ -324,7 +324,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "acc" ? "Copied!" : "Copy"}
+                      {copiedText === "acc" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
                     </button>
                   </div>
                 </div>
@@ -338,7 +338,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "ifsc" ? "Copied!" : "Copy"}
+                      {copiedText === "ifsc" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
                     </button>
                   </div>
                 </div>
@@ -352,7 +352,7 @@ export default function Home() {
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
-                      {copiedText === "branch" ? "Copied!" : "Copy"}
+                      {copiedText === "branch" ? "Copied! / कॉपी किया गया!" : "Copy / कॉपी करें"}
                     </button>
                   </div>
                 </div>
@@ -575,7 +575,7 @@ export default function Home() {
                   <FaFacebookF />
                 </div>
                 <span className="social-button__label">ಫೇಸ್ಬುಕ್ / FACEBOOK / फ़ेसबुक</span>
-                <span className="social-button__value">Profile</span>
+                <span className="social-button__value">Profile / प्रोफ़ाइल</span>
               </a>
             </div>
           </div>
@@ -584,7 +584,7 @@ export default function Home() {
             <p>
               © 2026 ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.
             </p>
-            <p className="footer__copyright-en">All Rights Reserved.</p>
+            <p className="footer__copyright-en">All Rights Reserved. / सर्वाधिकार सुरक्षित।</p>
           </div>
         </div>
       </footer>
