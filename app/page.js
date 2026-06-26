@@ -71,7 +71,7 @@ export default function Home() {
                 ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ
               </h2>
               <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-                A Jain temple containing an 11-foot-tall statue of Bhagwan Shree 1008 Mallinath Tirthankara
+                A Jain temple housing an 11-foot-tall idol of Bhagwan Shri 1008 Mallinath Tirthankara
                 is currently under construction.
               </p>
               <p className="bilingual-english-sub">
@@ -107,11 +107,11 @@ export default function Home() {
                 Non-violence (Ahimsa) is the supreme dharma and core tenet of Jainism, practicing absolute compassion toward all living beings. Constructing a new temple is crucial to preserve our spiritual heritage, enrich the community, and provide a sacred space for future generations.
               </p>
               <div className="committee-info">
-                <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidithsagara Maharaj</p>
+                <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidith Sagar Maharaj</p>
                 <p><strong>Support & Guidance:</strong> Pratishthacharya Pratimadhari Shri Manik Shripal Chandagade Bayyaji and Ba.Bra. Mahaveera Bayyaji</p>
                 <p><strong>President:</strong> M.D. Jinadatta Jain</p>
                 <p><strong>Secretary:</strong> Pavan C. Jain</p>
-                <p><strong>Assistant Secretaries:</strong> Ashok A. D and Sunil A. C</p>
+                <p><strong>Joint Secretaries:</strong> Ashok A. D and Sunil A. C</p>
                 <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
               </div>
             </div>
@@ -515,7 +515,7 @@ export default function Home() {
         {/* ── Location ── */}
         <section>
           <div className="section-heading">
-            <h3>ಸ್ಥಳ ಮತ್ತು ನಿರ್ದೇಶಾಂಕಗಳು (Visit / Location / स्थान)</h3>
+            <h3>ಸ್ಥಳ ಮತ್ತು ನಿರ್ದೇಶಾಂಕಗಳು (Visit & Location / स्थान)</h3>
           </div>
 
           <div className="location-grid">
@@ -740,21 +740,21 @@ const MINOR_DONORS = [
   { nameKn: "ಕಲಾವತಿ ಚೂಡರತ್ನ ಎ. ಎನ್., ಆಡಗಳಲೆ", nameEn: "Kalavathi Chudarathna A. N., Adagalale", amount: "₹ 2,000" },
   { nameKn: "ಸುಧಾ ಸೋಮರಾಜ್ ಜೈನ್, ಬಂಗ್ಲಿ, ಆಡಗಳಲೆ", nameEn: "Sudha Somaraj Jain, Bangli, Adagalale", amount: "₹ 2,000" },
   { nameKn: "ನಾಗಮ್ಮ ದ್ಯಾವಪ್ಪ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Nagamma Dhyavappa Jain, Adagalale", amount: "₹ 2,000" },
-  { nameKn: "ಕಿರಣ ಪುಟ್ಟಸ್ವಾಮಿ ಜೈನ್, ಚಂದೊಳ್ಳಿ", nameEn: "Kirana Puttaswami Jain, Chandoli", amount: "₹ 2,000" },
+  { nameKn: "ಕಿರಣ ಪುಟ್ಟಸ್ವಾಮಿ ಜೈನ್, ಚಂದೊಳ್ಳಿ", nameEn: "Kirana Puttaswami Jain, Chandolli", amount: "₹ 2,000" },
   { nameKn: "ಶಾಂತಿರಾಜ್ ಜೈನ್, ಯಲದಮಕ್ಕಿ", nameEn: "Shanthiraj Jain, Yaladamakki", amount: "₹ 2,000" },
   { nameKn: "ಅನಿತಾ ಮಹಾವೀರ್ ಜೈನ್, ಮುತ್ತತ್ತಿ", nameEn: "Aneetha Mahaveer Jain, Muttatti", amount: "₹ 1,010" },
   { nameKn: "ಶ್ರುತಾ, ಧನ್ವಿತಾ ಪಿ ಜೈನ್, (ಸಂಸೆ) ಮಂಗಳೂರು", nameEn: "Shrutha, Dhanwitha P Jain, (Samse) Mangaluru", amount: "₹ 1,010" },
   { nameKn: "ಅರ್ಚನಾ ಶಿಶುಪಾಲ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Archana Shishupal Jain, Adagalale", amount: "₹ 1,008" },
   { nameKn: "ಅರ್ಪಿತಾ ಜೈನ್, ಹಳ್ಳಿ", nameEn: "Arpitha Jain, Halli", amount: "₹ 1,008" },
   { nameKn: "ಕಲ್ಪಿತ್ ಜೈನ್, (ಮಡದೂರು, ಆಡಗಳಲೆ) ಬೆಂಗಳೂರು", nameEn: "Kalpith Jain, (Madadur, Adagalale) Bengaluru", amount: "₹ 1,008" },
-  { nameKn: "ಆದಿರಾಜ್ ಜೈನ್, ದೀಟೆಕೊಪ್ಪ", nameEn: "Adiraj jain, Deetekoppa", amount: "₹ 1,008" },
+  { nameKn: "ಆದಿರಾಜ್ ಜೈನ್, ದೀಟೆಕೊಪ್ಪ", nameEn: "Adiraj Jain, Deetekoppa", amount: "₹ 1,008" },
   { nameKn: "ಚೈತ್ರಾ ಮಂಜಯ್ಯ ಜೈನ್, ನಲ್ಲಿಬೀಡು", nameEn: "Chaitra Manjayya Jain, Nallibidu", amount: "₹ 1,008" },
   { nameKn: "ನಾಗರತ್ನ ನೀಲಕುಮಾರ್ ಜೈನ್, ನಲ್ಲಿಬೀಡು", nameEn: "Nagarathna Neelkumar Jain, Nallibidu", amount: "₹ 1,008" },
   { nameKn: "ರಶ್ಮಿ ರವಿ ಜೈನ್, ಬಂಗ್ಲಿ, ಆಡಗಳಲೆ", nameEn: "Rashmi Ravi Jain, Bangli, Adagalale", amount: "₹ 1,008" },
   { nameKn: "ಪದ್ಮರಾಜ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Padmaraj Jain, Adagalale", amount: "₹ 1,000" },
   { nameKn: "ರತ್ನಮ್ಮ, ಬಂಗ್ಲಿ, ಆಡಗಳಲೆ", nameEn: "Rathnamma, Bangli, Adagalale", amount: "₹ 1,000" },
-  { nameKn: "ನಿರ್ಮಲಾ ಕಾಂತರಾಜ ಜೈನ್, ಚಂದೊಳ್ಳಿ", nameEn: "Nirmala Kantharaj Jain, Chandoli", amount: "₹ 1,000" },
-  { nameKn: "ದೀವ್ಯಾ ಅಶೋಕ್ ಜೈನ್, ಬಂಗ್ಲಿ, ಆಡಗಳಲೆ", nameEn: "Divya Ashok Jain, Bangli, Adagalale", amount: "₹ 1,000" },
+  { nameKn: "ನಿರ್ಮಲಾ ಕಾಂತರಾಜ ಜೈನ್, ಚಂದೊಳ್ಳಿ", nameEn: "Nirmala Kantharaj Jain, Chandolli", amount: "₹ 1,000" },
+  { nameKn: "ದಿವ್ಯಾ ಅಶೋಕ್ ಜೈನ್, ಬಂಗ್ಲಿ, ಆಡಗಳಲೆ", nameEn: "Divya Ashok Jain, Bangli, Adagalale", amount: "₹ 1,000" },
   { nameKn: "ಕಾವ್ಯಾ ಅಶೋಕ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Kavya Ashok Jain, Adagalale", amount: "₹ 1,000" },
   { nameKn: "ಶ್ರಾವ್ಯಾ ಅಶೋಕ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Shravya Ashok Jain, Adagalale", amount: "₹ 1,000" },
   { nameKn: "ಸುಲೋಚನಾ ದೀದಿ, ಮರುಬಿಡಿ", nameEn: "Sulochana Didi, Marubidi", amount: "₹ 1,000" },
