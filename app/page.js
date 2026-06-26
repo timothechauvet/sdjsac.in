@@ -247,7 +247,7 @@ export default function Home() {
               </p>
               <div style={{ marginTop: 8, textAlign: "left", width: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
                 <div>
-                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / ACCOUNT NAME</p>
+                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / ACCOUNT NAME / खाता नाम</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16 }}>SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI</span>
                     <button 
@@ -260,7 +260,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div>
-                  <p className="bank-field__label">UPI ID</p>
+                  <p className="bank-field__label">UPI ID / यूपीआई आईडी</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16, wordBreak: "break-all" }}>QR919483056445-0815@unionbankofindia</span>
                     <button 
@@ -303,7 +303,7 @@ export default function Home() {
               </div>
               <div className="bank-grid">
                 <div>
-                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / ACCOUNT NAME</p>
+                  <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / ACCOUNT NAME / खाता नाम</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16 }}>M/S SUMERU DIGAMBARA JAINA SABHA ADAGALALE CHANDOLLI</span>
                     <button 
@@ -317,7 +317,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <p className="bank-field__label">ಬ್ಯಾಂಕ್ / BANK</p>
+                  <p className="bank-field__label">ಬ್ಯಾಂಕ್ / BANK / बैंक</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16 }}>UNION BANK OF INDIA</span>
                     <button 
@@ -331,7 +331,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <p className="bank-field__label">ಖಾತೆ ಸಂಖ್ಯೆ / ACCOUNT NUMBER</p>
+                  <p className="bank-field__label">ಖಾತೆ ಸಂಖ್ಯೆ / ACCOUNT NUMBER / खाता संख्या</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16 }}>328422010000615</span>
                     <button 
@@ -345,7 +345,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <p className="bank-field__label">ಐಎಫ್‌ಎಸ್‌ಸಿ ಕೋಡ್ / IFSC CODE</p>
+                  <p className="bank-field__label">ಐಎಫ್‌ಎಸ್‌ಸಿ ಕೋಡ್ / IFSC CODE / आईएफएससी कोड</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16 }}>UBIN0932841</span>
                     <button 
@@ -359,7 +359,7 @@ export default function Home() {
                 </div>
 
                 <div style={{ gridColumn: "1 / -1" }}>
-                  <p className="bank-field__label">ಶಾಖೆ ವಿವರಗಳು / BRANCH ADDRESS</p>
+                  <p className="bank-field__label">ಶಾಖೆ ವಿವರಗಳು / BRANCH ADDRESS / शाखा पता</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
                     <span className="bank-field__value" style={{ fontSize: 16 }}>Adagalale Chandolli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577401, India</span>
                     <button 
