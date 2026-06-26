@@ -142,7 +142,7 @@ export default function Home() {
                 <p><strong>अध्यक्ष:</strong> एम.डी. जिनदत्त जैन</p>
                 <p><strong>सचिव:</strong> पवन सी. जैन</p>
                 <p><strong>सहायक सचिव:</strong> अशोक ए. डी और सुनील ए. सी</p>
-                <p><strong>योजना एवं इंजीनियरिंग रेखाचित्र:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>संतोष डी.</a> (इंजीनियर)</p>
+                <p><strong>योजना और इंजीनियरिंग रेखाचित्र:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>संतोष डी.</a> (इंजीनियर)</p>
               </div>
             </div>
           </div>
