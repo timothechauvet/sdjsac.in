@@ -100,9 +100,9 @@ export default function Home() {
               <div className="committee-info">
                 <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidithsagara Maharaj</p>
                 <p><strong>Support & Guidance:</strong> Pratishthacharya Pratimadhari Shri Manik Shripal Chandagade Bayyaji and Ba.Bra. Mahaveera Bayyaji</p>
-                <p><strong>President / अध्यक्ष:</strong> M.D. Jinadatta Jain</p>
-                <p><strong>Secretary / सचिव:</strong> Pavan C. Jain</p>
-                <p><strong>Assistant Secretaries / सहायक सचिव:</strong> Ashok A. D and Sunil A. C</p>
+                <p><strong>President:</strong> M.D. Jinadatta Jain</p>
+                <p><strong>Secretary:</strong> Pavan C. Jain</p>
+                <p><strong>Assistant Secretaries:</strong> Ashok A. D and Sunil A. C</p>
                 <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
               </div>
             </div>
@@ -128,12 +128,12 @@ export default function Home() {
                 अहिंसा जैन धर्म का परम धर्म और मूल सिद्धांत है। सभी जीवों के प्रति दया, करुणा और सम्मान रखना इसका मूल सार है। हमारी संस्कृति और आध्यात्मिक परंपरा को संरक्षित करने, समाज को समृद्ध बनाने और आने वाली पीढ़ियों के लिए एक पवित्र स्थान प्रदान करने हेतु नए जिनालय का निर्माण अत्यंत महत्वपूर्ण है।
               </p>
               <div className="committee-info">
-                <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidithsagara Maharaj</p>
-                <p><strong>Support & Guidance:</strong> Pratishthacharya Pratimadhari Shri Manik Shripal Chandagade Bayyaji and Ba.Bra. Mahaveera Bayyaji</p>
-                <p><strong>President / अध्यक्ष:</strong> M.D. Jinadatta Jain</p>
-                <p><strong>Secretary / सचिव:</strong> Pavan C. Jain</p>
-                <p><strong>Assistant Secretaries / सहायक सचिव:</strong> Ashok A. D and Sunil A. C</p>
-                <p><strong>Planning & Engineering Drawings:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Santhosh. D</a> (Engineer)</p>
+                <p style={{ marginTop: 8 }}><strong>आशीर्वाद एवं मार्गदर्शन:</strong> चर्या शिरोमणि परमपूज्य मुनि श्री 108 विदितसागर महाराज</p>
+                <p><strong>समर्थन एवं मार्गदर्शन:</strong> प्रतिष्ठाचार्य प्रतिमाधारी श्री माणिक श्रीपाल चंदगड़े बय्याजी और बा.ब्रा. महावीर बय्याजी</p>
+                <p><strong>अध्यक्ष:</strong> एम.डी. जिनदत्त जैन</p>
+                <p><strong>सचिव:</strong> पवन सी. जैन</p>
+                <p><strong>सहायक सचिव:</strong> अशोक ए. डी और सुनील ए. सी</p>
+                <p><strong>योजना एवं इंजीनियरिंग रेखाचित्र:</strong> <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>संतोष डी.</a> (इंजीनियर)</p>
               </div>
             </div>
           </div>
