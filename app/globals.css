@@ -368,7 +368,7 @@ a {
 
 .hero-title-row {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 16px;
   margin-bottom: 12px;
 }
@@ -392,7 +392,7 @@ a {
 
 @media (max-width: 767px) {
   .hero-title-row {
-    align-items: center;
+    align-items: flex-start;
     gap: 12px;
   }
 }
@@ -714,6 +714,11 @@ a {
   font-weight: 700;
 }
 
+.upi-id {
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
 /* ---------- Payment Row ---------- */
 .payment-row {
   border: 1px solid var(--text-charcoal);
@@ -808,6 +813,15 @@ a {
   cursor: pointer;
   transition: all 0.2s;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.nav__back-home {
+  flex-direction: column;
+  gap: 1px;
+  text-align: center;
+  padding: 8px 14px;
+  font-size: 10px;
+  line-height: 1.1;
 }
 
 .btn-outline:hover {
@@ -1276,13 +1290,14 @@ a {
 /* ---------- Committee Members ---------- */
 .committee-cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
-  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
   justify-content: center;
 }
 
 @media (min-width: 768px) {
   .committee-cards-grid {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 210px));
     gap: 16px;
   }
 }
@@ -1296,7 +1311,7 @@ a {
   flex-direction: column;
   min-width: 0;
   width: 100%;
-  max-width: 280px;
+  max-width: 210px;
 }
 
 .committee-member-photo {
@@ -1319,7 +1334,7 @@ a {
   padding: 12px;
   display: flex;
   flex-direction: column;
-  min-height: 200px;
+  min-height: 220px;
 }
 
 .committee-member-name {

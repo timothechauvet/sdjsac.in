@@ -19,10 +19,10 @@ export default function Home() {
     <>
       {/* ── Navigation ── */}
       <nav className="nav" id="top">
-        <div className="nav__brand">
+        <a className="nav__brand" href="#top" aria-label="Back to top">
           <span className="nav__brand-kn">ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</span>
           <span className="nav__brand-en">SUMERU DIGAMBARA JAIN SABHA</span>
-        </div>
+        </a>
 
         <div className="nav__links">
           <a className="nav__link" href="#projects">
@@ -48,7 +48,7 @@ export default function Home() {
         {/* ── Header ── */}
         <header className="hero-section">
           <div className="hero-content">
-            <div className="hero-title-row">
+            <a className="hero-title-row" href="#top" aria-label="Back to top">
               <img
                 src="/favicon-96x96.png"
                 alt="Sumeru Digambara Jain Sabha favicon"
@@ -67,7 +67,7 @@ export default function Home() {
                   सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
                 </p>
               </div>
-            </div>
+            </a>
 
             <div className="gold-border-box">
               <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
@@ -264,7 +264,7 @@ export default function Home() {
                 <div>
                   <p className="bank-field__label">ಯುಪಿಐ ಐಡಿ / UPI ID / यूपीआई आईडी</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-                    <span className="bank-field__value" style={{ fontSize: 16, wordBreak: "break-all" }}>QR919483056445-0815@unionbankofindia</span>
+                    <span className="bank-field__value upi-id" style={{ fontSize: 16 }}>QR919483056445-0815@<wbr />unionbankofindia</span>
                     <button 
                       onClick={() => handleCopy("QR919483056445-0815@unionbankofindia", "upi")}
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
@@ -720,9 +720,12 @@ export default function Home() {
         <div className="footer__inner">
           <div style={{ flex: 1 }}>
             <div className="footer__brand">
-              <h2>SUMERU DIGAMBARA JAIN SABHA</h2>
+              <h2>ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</h2>
               <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.1em" }}>
-                Adagalale-Chandolli
+                SUMERU DIGAMBARA JAIN SABHA, Adagalale-Chandolli
+              </p>
+              <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.08em", marginTop: 4 }}>
+                सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
               </p>
             </div>
 
