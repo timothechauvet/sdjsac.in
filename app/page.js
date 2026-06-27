@@ -394,7 +394,7 @@ export default function Home() {
             </p>
             <div className="donor-major-grid">
               <DonorMajor nameKn="ರೇವತಿ ಜಿನದತ್ತ ಎಂ. ಡಿ., ಮಡದೂರು, ಆಡಗಳಲೆ" nameEn="Revathi Jinadatta M.D., Madadur, Adagalale" amount="₹ 5,00,000" />
-              <DonorMajor nameKn="ಬಿ ಜೆ ವೀರೇಂದ್ರ ಕುಮಾರ್, ಅಡ್ವೋಕೇಟ್, ಶ್ರೀಮತಿ ಸಪ್ನಾ ಕುಮಾರ್, ಕುಮಾರಿ ಪ್ರಾರ್ಥನಾ ಜೈನ್, ಸಿ.ಎ., ನಾಗರಭಾವಿ, ಬೆಂಗಳೂರು" nameEn="B J Veerendra Kumar, Advocate, Smt.Sapna Kumar, Kumari, Prarthana Jain, C.A., Nagarbhavi, Bangalore" amount="₹ 3,70,000" />
+              <DonorMajor nameKn="ಬಿ ಜೆ ವೀರೇಂದ್ರ ಕುಮಾರ್, ಅಡ್ವೋಕೇಟ್, ಶ್ರೀಮತಿ ಸಪ್ನಾ ಕುಮಾರ್, ಕುಮಾರಿ. ಪ್ರಾರ್ಥನಾ ಜೈನ್, ಸಿ.ಎ., ನಾಗರಭಾವಿ, ಬೆಂಗಳೂರು" nameEn="B J Veerendra Kumar, Advocate, Smt.Sapna Kumar, Kumari. Prarthana Jain, C.A., Nagarbhavi, Bangalore" amount="₹ 3,70,000" />
               <DonorMajor nameKn="ತಿಮೊಥೆ ಶಾವೆ, ಪ್ಯಾರಿಸ್, ಫ್ರಾನ್ಸ್" nameEn="Timothé Chauvet, Paris, France" amount="₹ 2,20,000" link="https://timothechau.vet" />
               <DonorMajor nameKn="ಡಾ. ಆದರ್ಶ್ ಜೈನ್, ಡುಯಿಸ್ಬರ್ಗ್, ಜರ್ಮನಿ" nameEn="Dr. Adarsh Jain, Duisburg, Germany" amount="₹ 2,00,000" link="https://adarshjain.de" />
             </div>
