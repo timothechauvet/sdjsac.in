@@ -72,7 +72,7 @@ export default function PrivacyPolicyPage() {
             <div className="footer__brand">
               <h2>ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</h2>
               <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.1em" }}>
-                SUMERU DIGAMBARA JAIN SABHA, Adagalale-Chandolli
+                SUMERU DIGAMBARA JAIN SABHA, Adagalale-Sullalli
               </p>
               <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.08em", marginTop: 4 }}>
                 सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
