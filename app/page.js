@@ -738,12 +738,12 @@ export default function Home() {
                 <span className="social-button__value">contact@sdjsac.in</span>
               </a>
 
-              <a href="https://wa.me/919449793112" className="social-button" target="_blank" rel="noopener noreferrer">
+              <a href="https://tmth.fr/wasdjsac" className="social-button" target="_blank" rel="noopener noreferrer">
                 <div className="social-button__icon">
                   <FaWhatsapp />
                 </div>
                 <span className="social-button__label">WHATSAPP</span>
-                <span className="social-button__value">+91 944 9793 112</span>
+                <span className="social-button__value">+91 XXXXX XXXXX</span>
               </a>
 
               <a href="https://www.instagram.com/sumeru_digambara_jain_sabha/" className="social-button" target="_blank" rel="noopener noreferrer">
