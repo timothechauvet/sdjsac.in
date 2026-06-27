@@ -67,7 +67,7 @@ export default function Home() {
     <>
       {/* ── Navigation ── */}
       <nav className="nav" id="top">
-        <a className="nav__brand" href="#top" aria-label="Back to top">
+        <a className="nav__brand" href="/#top" aria-label="Back to top and home">
           <span className="nav__brand-kn">ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</span>
           <span className="nav__brand-en">SUMERU DIGAMBARA JAIN SABHA</span>
         </a>
@@ -96,7 +96,7 @@ export default function Home() {
         {/* ── Header ── */}
         <header className="hero-section">
           <div className="hero-content">
-            <a className="hero-title-row" href="#top" aria-label="Back to top">
+            <a className="hero-title-row" href="/#top" aria-label="Back to top and home">
               <img
                 src="/favicon-96x96.png"
                 alt="Sumeru Digambara Jain Sabha favicon"
