@@ -2,7 +2,7 @@
 
 import { FaWhatsapp, FaInstagram, FaFacebookF, FaCopy } from "react-icons/fa";
 import { QRCodeSVG } from "qrcode.react";
-import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness, IoCall } from "react-icons/io5";
+import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness } from "react-icons/io5";
 import { useState } from "react";
 
 export default function Home() {
@@ -20,24 +20,23 @@ export default function Home() {
       {/* ── Navigation ── */}
       <nav className="nav" id="top">
         <div className="nav__brand">
-          <span className="nav__brand-kn">ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</span>
           <span className="nav__brand-en">SUMERU DIGAMBARA JAIN SABHA</span>
         </div>
 
         <div className="nav__links">
           <a className="nav__link" href="#projects">
-            ಯೋಜನೆಗಳು / PROJECTS / परियोजनाएँ
+            PROJECTS
           </a>
           <a className="nav__link" href="#donors">
-            ದಾನಿಗಳು / DONORS / दानदाता
+            DONORS
           </a>
           <a className="nav__link" href="#contact">
-            ಸಂಪರ್ಕ / CONTACT / संपर्क
+            CONTACT
           </a>
         </div>
 
         <a className="nav__cta" href="#donate">
-          ಈಗಲೇ ದಾನ ಮಾಡಿ / DONATE NOW / अभी दान करें
+          DONATE NOW
         </a>
       </nav>
 
@@ -54,16 +53,15 @@ export default function Home() {
                 width="96"
                 height="96"
               />
-              <h1 className="headline-lg-mobile" style={{ marginBottom: 4 }}>
-                ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
-              </h1>
+              <div className="hero-title-copy">
+                <h1 className="headline-lg-mobile hero-title-main" style={{ marginBottom: 4 }}>
+                  SUMERU DIGAMBARA JAIN SABHA
+                </h1>
+                <p className="bilingual-english-sub" style={{ marginBottom: 24 }}>
+                  Adagalale-Chandolli
+                </p>
+              </div>
             </div>
-            <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-              Sumeru Digambara Jain Sabha, Adagalale-Chandolli
-            </p>
-            <p className="bilingual-english-sub" style={{ marginBottom: 24 }}>
-              सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
-            </p>
 
             <div className="gold-border-box">
               <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
@@ -464,10 +462,6 @@ export default function Home() {
                 <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>जिनदत्त एम.डी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
-                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>+91 XXXXX XXXXX</span>
-                  </div>
-                  <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>Adagalale, Shivamogga, Karnataka</span>
                   </div>
@@ -505,10 +499,6 @@ export default function Home() {
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Pavan C. Jain</p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>पवन सी. जैन</p>
                 <div className="committee-member-info">
-                  <div className="committee-member-info-row">
-                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>+91 XXXXX XXXXX</span>
-                  </div>
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>Adagalale, Shivamogga, Karnataka</span>
