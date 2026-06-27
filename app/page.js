@@ -26,7 +26,7 @@ export default function Home() {
     <>
       {/* ── Navigation ── */}
       <nav className="nav" id="top">
-        <a className="nav__brand" href="/#top" aria-label="Back to top and home">
+        <a className="nav__brand" href="/" aria-label="Back to top and home">
           <span className="nav__brand-kn">ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</span>
           <span className="nav__brand-en">SUMERU DIGAMBARA JAIN SABHA</span>
         </a>
