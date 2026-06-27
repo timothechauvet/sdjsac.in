@@ -20,6 +20,7 @@ export default function Home() {
       {/* ── Navigation ── */}
       <nav className="nav" id="top">
         <div className="nav__brand">
+          <span className="nav__brand-kn">ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</span>
           <span className="nav__brand-en">SUMERU DIGAMBARA JAIN SABHA</span>
         </div>
 
@@ -36,7 +37,9 @@ export default function Home() {
         </div>
 
         <a className="nav__cta" href="#donate">
-          DONATE NOW
+          <span className="nav__cta-line">ಈಗಲೇ ದಾನ ಮಾಡಿ</span>
+          <span className="nav__cta-line">DONATE NOW</span>
+          <span className="nav__cta-line">अभी दान करें</span>
         </a>
       </nav>
 
@@ -55,10 +58,13 @@ export default function Home() {
               />
               <div className="hero-title-copy">
                 <h1 className="headline-lg-mobile hero-title-main" style={{ marginBottom: 4 }}>
-                  SUMERU DIGAMBARA JAIN SABHA
+                  ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
                 </h1>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
+                  SUMERU DIGAMBARA JAIN SABHA, Adagalale-Chandolli
+                </p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 24 }}>
-                  Adagalale-Chandolli
+                  सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
                 </p>
               </div>
             </div>
