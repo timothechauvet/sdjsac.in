@@ -500,16 +500,35 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Joint Secretaries */}
+            {/* Joint Secretary */}
             <div className="committee-member-card">
-              <div className="committee-member-photo" aria-label="Joint Secretaries photo placeholder" />
+              <div className="committee-member-photo" aria-label="Joint Secretary photo placeholder" />
               <div className="committee-member-details">
                 <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
-                  ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿಗಳು / JOINT SECRETARIES / सहायक सचिव
+                  ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿ / JOINT SECRETARY / सहायक सचिव
                 </p>
-                <h4 className="committee-member-name">ಅಶೋಕ್ ಎ. ಡಿ ಜೈನ್ ಮತ್ತು ಸುನಿಲ್ ಎ. ಸಿ ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Ashok A. D Jain and Sunil A. C Jain</p>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अशोक ए. डी जैन और सुनील ए. सी जैन</p>
+                <h4 className="committee-member-name">ಅಶೋಕ್ ಎ. ಡಿ ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Ashok A. D Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अशोक ए. डी. जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Joint Secretary */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Joint Secretary photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿ / JOINT SECRETARY / सहायक सचिव
+                </p>
+                <h4 className="committee-member-name">ಸುನಿಲ್ ಎ. ಸಿ ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Sunil A. C Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>सुनील ए. सी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
