@@ -268,19 +268,19 @@ export default function Home() {
                 <p className="bank-field__label qr-card__apps-title">DONATE WITH UPI</p>
                 <div className="qr-card__apps-grid">
                   <a className="upi-app-button upi-app-button--gpay" href={TEZ_LINK} aria-label="Donate with Google Pay">
-                    <img src="/images/payment_system_icon/gpay.svg" alt="Google Pay" className="upi-app-button__logo-image" width="64" height="64" />
+                    <img src="/images/payment_system_icon/gpay.svg" alt="Google Pay" className="upi-app-button__logo-image" />
                     <span className="upi-app-button__subtitle">Google Pay</span>
                   </a>
                   <a className="upi-app-button upi-app-button--phonepe" href={PHONEPE_LINK} aria-label="Donate with PhonePe">
-                    <img src="/images/payment_system_icon/phonepe.svg" alt="PhonePe" className="upi-app-button__logo-image" width="64" height="64" />
+                    <img src="/images/payment_system_icon/phonepe.svg" alt="PhonePe" className="upi-app-button__logo-image" />
                     <span className="upi-app-button__subtitle">PhonePe</span>
                   </a>
                   <a className="upi-app-button upi-app-button--paytm" href={PAYTM_LINK} aria-label="Donate with Paytm">
-                    <img src="/images/payment_system_icon/paytm.svg" alt="Paytm" className="upi-app-button__logo-image" width="64" height="64" />
+                    <img src="/images/payment_system_icon/paytm.svg" alt="Paytm" className="upi-app-button__logo-image" />
                     <span className="upi-app-button__subtitle">Paytm</span>
                   </a>
                   <a className="upi-app-button upi-app-button--bhim" href={BHIM_LINK} aria-label="Donate with BHIM">
-                    <img src="/images/payment_system_icon/bhim.svg" alt="BHIM" className="upi-app-button__logo-image" width="64" height="64" />
+                    <img src="/images/payment_system_icon/bhim.svg" alt="BHIM" className="upi-app-button__logo-image" />
                     <span className="upi-app-button__subtitle">BHIM</span>
                   </a>
                 </div>
