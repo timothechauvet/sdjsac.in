@@ -248,16 +248,14 @@ export default function Home() {
                     loading="lazy"
                   />
                 </div>
-                <a href={UPI_LINK} aria-label="Open UPI payment link">
-                  <QRCodeSVG
-                    value={UPI_LINK}
-                    title="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
-                    size={240}
-                    level="M"
-                    includeMargin={true}
-                    className="qr-card__qr-image"
-                  />
-                </a>
+                <QRCodeSVG
+                  value={UPI_LINK}
+                  title="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
+                  size={240}
+                  level="M"
+                  includeMargin={true}
+                  className="qr-card__qr-image"
+                />
                 <p className="body-sm qr-card__scan-text">
                   ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ದಾನ ಮಾಡಿ
                   <br />
