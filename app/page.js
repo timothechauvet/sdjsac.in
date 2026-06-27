@@ -67,7 +67,7 @@ export default function Home() {
 
             <div className="gold-border-box">
               <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-                ಮಲೆನಾಡಿನ ಹಸಿರು ಹೃದಯಭಾಗದಲ್ಲಿ, ಭವ್ಯವಾದ ಕೊಡಚಾದ್ರಿ ಮತ್ತು ಅಂಬರಗುದ್ದ ಬೆಟ್ಟಗಳ ಪಾದದ ಬಳಿಯಲ್ಲಿ, ಐತಿಹಾಸಿಕ ಸವಳನಾಡು ಪ್ರದೇಶದೊಳಗೆ ಈ ಪವಿತ್ರ ತಾಣ ನೆಲೆಗೊಂಡಿದೆ. ಸುಂದರ ಶರಾವತಿ ಕಣಿವೆಯ ನಡುವೆ, ವಿಶ್ವಪ್ರಸಿದ್ಧ ಜೋಗ ಜಲಪಾತದ ಸಮೀಪದಲ್ಲಿರುವ ಈ ಶಾಂತ ಸ್ಥಳದಲ್ಲಿ ಭಗವಾನ್ ಶ್ರೀ 1008 ಮಲ್ಲಿನಾಥ ತೀರ್ಥಂಕರರ 11 ಅಡಿ ಎತ್ತರದ ಪ್ರತಿಮೆಯನ್ನು ಹೊಂದಿದ ಭವ್ಯ ಜೈನ ದೇವಸ್ಥಾನ ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ.
+                ಮಲೆನಾಡಿನ ಹಸಿರು ಮಡಿಲಲ್ಲಿ, ಪ್ರಸಿದ್ಧ ಕೊಡಚಾದ್ರಿ ಮತ್ತು ಅಂಬರಗುಡ್ಡದ ತಪೋಭೂಮಿಯ ತಪ್ಪಲಿನ ಸನಿಹದಲ್ಲಿ, ಐತಿಹಾಸಿಕ ಸವಳನಾಡು ಸೀಮೆಯ ಒಡಲಿನಲ್ಲಿ ಈ ಪುಣ್ಯಕ್ಷೇತ್ರವಿದೆ. ಜೀವನಾಡಿ ಶರಾವತಿ ಕಣಿವೆಯ ಸುಂದರ ಪರಿಸರದಲ್ಲಿ, ಜಗತ್ಪ್ರಸಿದ್ಧ ಜೋಗ ಜಲಪಾತದ ಸಮೀಪದಲ್ಲೇ ನೆಲೆಗೊಂಡಿರುವ ಈ ಪವಿತ್ರ ಸ್ಥಳದಲ್ಲಿ, ಭಗವಾನ್ ಶ್ರೀ 1008 ಮಲ್ಲಿನಾಥ ತೀರ್ಥಂಕರರ 11 ಅಡಿ ಎತ್ತರದ ಭವ್ಯ ಪ್ರತಿಮೆ ಹಾಗೂ ಜೈನ ಮಂದಿರವು ಪ್ರಸ್ತುತ ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ.
               </p>
               <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
                 Nestled in lush heart of Malenadu, at foothills of majestic Kodachadri and Ambaragudda peaks, this sacred destination lies within historic Savalanadu region. Situated in scenic Sharavathi Valley and close to world-famous Jog Falls, magnificent Jain temple housing 11-foot-tall idol of Bhagwan Shri 1008 Mallinath Tirthankara is currently under construction at this serene location.
