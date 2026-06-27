@@ -461,9 +461,9 @@ export default function Home() {
                 <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
                   ಅಧ್ಯಕ್ಷರು / PRESIDENT / अध्यक्ष
                 </p>
-                <h4 className="committee-member-name">ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>M.D. Jinadatta Jain</p>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>एम.डी. जिनदत्त जैन</p>
+                <h4 className="committee-member-name">ಜಿನದತ್ತ ಎಂ.ಡಿ. ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Jinadatta M.D. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>जिनदत्त एम.डी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
@@ -472,6 +472,25 @@ export default function Home() {
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Vice President */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Vice President photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ಉಪಾಧ್ಯಕ್ಷರು / VICE PRESIDENT / उपाध्यक्ष
+                </p>
+                <h4 className="committee-member-name">ಪುಟ್ಟಸ್ವಾಮಿ ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Puttaswamy Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>पुट्टस्वामी जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Chandolli, Adagalale, Shivamogga, Karnataka</span>
                   </div>
                 </div>
               </div>
@@ -507,9 +526,9 @@ export default function Home() {
                 <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
                   ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿ / JOINT SECRETARY / सहायक सचिव
                 </p>
-                <h4 className="committee-member-name">ಅಶೋಕ್ ಎ. ಡಿ ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Ashok A. D Jain</p>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अशोक ए. डी. जैन</p>
+                <h4 className="committee-member-name">ಅಶೋಕ್ ಎ.ಡಿ. ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Ashok A.D. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अशोक ए.डी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
@@ -526,9 +545,123 @@ export default function Home() {
                 <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
                   ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿ / JOINT SECRETARY / सहायक सचिव
                 </p>
-                <h4 className="committee-member-name">ಸುನಿಲ್ ಎ. ಸಿ ಜೈನ್</h4>
-                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Sunil A. C Jain</p>
-                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>सुनील ए. सी. जैन</p>
+                <h4 className="committee-member-name">ಸುನಿಲ್ ಎ.ಸಿ. ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Sunil A.C. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>सुनील ए.सी. जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Treasurer */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Treasurer photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ಖಜಾಂಚಿ / TREASURER / कोषाध्यक्ष
+                </p>
+                <h4 className="committee-member-name">ಪದ್ಮರಾಜ್ ಎ.ಎನ್. ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Padmaraj A.N. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>पद्मराज ए.एन. जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Director */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Director photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ನಿರ್ದೇಶಕರು / DIRECTOR / निदेशक
+                </p>
+                <h4 className="committee-member-name">ಕೋಮರಾಜ್ ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Komaraj Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>कोमराज जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Director */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Director photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ನಿರ್ದೇಶಕರು / DIRECTOR / निदेशक
+                </p>
+                <h4 className="committee-member-name">ಪದ್ಮಯ್ಯ (ರವಿ) ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Padmayya (Ravi) Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>पद्मय्या (रवि) जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Director */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Director photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ನಿರ್ದೇಶಕರು / DIRECTOR / निदेशक
+                </p>
+                <h4 className="committee-member-name">ನೀಲಕುಮಾರ್ ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Neelkumar Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>नीलकुमार जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Director */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Director photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ನಿರ್ದೇಶಕರು / DIRECTOR / निदेशक
+                </p>
+                <h4 className="committee-member-name">ಅಶೋಕ್ ಎ.ಬಿ. ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Ashok A.B. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अशोक ए.बी. जैन</p>
+                <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Director */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Director photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ನಿರ್ದೇಶಕರು / DIRECTOR / निदेशक
+                </p>
+                <h4 className="committee-member-name">ಅಭಿಜಿತ್ ಎ.ಪಿ. ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Abhijith A.P. Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अभिजित ए.पी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
