@@ -67,15 +67,13 @@ export default function Home() {
 
             <div className="gold-border-box">
               <h2>
-                ಭಗವಾನ್ ಶ್ರೀ 1008 ಮಲ್ಲಿನಾಥ ತೀರ್ಥಂಕರರ 11 ಅಡಿ ಎತ್ತರದ ಪ್ರತಿಮೆ
-                ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ
+                ಮಲೆನಾಡಿನ ಹಸಿರು ಹೃದಯಭಾಗದಲ್ಲಿ, ಭವ್ಯವಾದ ಕೊಡಚಾದ್ರಿ ಮತ್ತು ಅಂಬರಗುದ್ದ ಬೆಟ್ಟಗಳ ಪಾದದ ಬಳಿಯಲ್ಲಿ, ಐತಿಹಾಸಿಕ ಸವಳನಾಡು ಪ್ರದೇಶದೊಳಗೆ ಈ ಪವಿತ್ರ ತಾಣ ನೆಲೆಗೊಂಡಿದೆ. ಸುಂದರ ಶರಾವತಿ ಕಣಿವೆಯ ನಡುವೆ, ವಿಶ್ವಪ್ರಸಿದ್ಧ ಜೋಗ ಜಲಪಾತದ ಸಮೀಪದಲ್ಲಿರುವ ಈ ಶಾಂತ ಸ್ಥಳದಲ್ಲಿ ಭಗವಾನ್ ಶ್ರೀ 1008 ಮಲ್ಲಿನಾಥ ತೀರ್ಥಂಕರರ 11 ಅಡಿ ಎತ್ತರದ ಪ್ರತಿಮೆಯನ್ನು ಹೊಂದಿದ ಭವ್ಯ ಜೈನ ದೇವಸ್ಥಾನ ನಿರ್ಮಾಣ ಹಂತದಲ್ಲಿದೆ.
               </h2>
               <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-                A Jain temple housing an 11-foot-tall idol of Bhagwan Shri 1008 Mallinath Tirthankara
-                is currently under construction.
+                Nestled in lush heart of Malenadu, at foothills of majestic Kodachadri and Ambaragudda peaks, this sacred destination lies within historic Savalanadu region. Situated in scenic Sharavathi Valley and close to world-famous Jog Falls, magnificent Jain temple housing 11-foot-tall idol of Bhagwan Shri 1008 Mallinath Tirthankara is currently under construction at this serene location.
               </p>
               <p className="bilingual-english-sub">
-                भगवान श्री 1008 मल्लिनाथ तीर्थंकर की 11 फुट ऊँची प्रतिमा सहित एक जैन मंदिर वर्तमान में निर्माणाधीन है।
+                मलनाडु के हरे-भरे हृदय में, भव्य कोडाचाद्रि और अम्बारगुड्डा शिखरों की तलहटी में स्थित यह पवित्र स्थान ऐतिहासिक सावलनाडु क्षेत्र के अंतर्गत आता है। रमणीय शरावती घाटी में, विश्वप्रसिद्ध जोग फॉल्स के निकट स्थित इस शांत स्थल पर भगवान श्री 1008 मल्लिनाथ तीर्थंकर की 11 फुट ऊँची प्रतिमा सहित एक भव्य जैन मंदिर वर्तमान में निर्माणाधीन है।
               </p>
             </div>
           </div>
