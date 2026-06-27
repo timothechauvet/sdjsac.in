@@ -231,15 +231,36 @@ export default function Home() {
                 <h4>ಯುಪಿಐ ಪಾವತಿ (UPI QR / यूपीआई क्यूआर)</h4>
               </div>
               <div className="qr-card__qr-wrapper">
-                <QRCodeSVG
-                  value="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
-                  title="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
-                  size={240}
-                  level="M"
-                  includeMargin={true}
-                  className="qr-card__qr-image"
-                />
+                <div className="qr-card__bhim-badge">
+                  <img
+                    src="/images/bhim_upi.webp"
+                    alt="BHIM UPI Logo"
+                    className="qr-card__bhim-logo"
+                    width="120"
+                    height="16"
+                    loading="lazy"
+                  />
+                </div>
+                <a
+                  href="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
+                  aria-label="Open UPI payment link"
+                >
+                  <QRCodeSVG
+                    value="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
+                    title="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
+                    size={240}
+                    level="M"
+                    includeMargin={true}
+                    className="qr-card__qr-image"
+                  />
+                </a>
               </div>
+              <a
+                className="btn-gold qr-card__pay-button"
+                href="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
+              >
+                PAY WITH BHIM UPI
+              </a>
               <p className="body-sm" style={{ color: "var(--text-secondary)", marginTop: 12, textAlign: "center", width: "100%" }}>
                 ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ದಾನ ಮಾಡಿ
                 <br />
@@ -274,16 +295,6 @@ export default function Home() {
                     </button>
                   </div>
                 </div>
-              </div>
-              <div className="qr-card__bhim-container">
-                <img
-                  src="/images/bhim_upi.webp"
-                  alt="BHIM UPI Logo"
-                  className="qr-card__bhim-logo"
-                  width="120"
-                  height="16"
-                  loading="lazy"
-                />
               </div>
             </div>
 
