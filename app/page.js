@@ -109,9 +109,6 @@ export default function Home() {
               <div className="committee-info">
                 <p style={{ marginTop: 8 }}><strong>Blessings & Guidance:</strong> Charya Shiromani Paramapujya Muni Shri 108 Vidith Sagar Maharaj</p>
                 <p><strong>Support & Guidance:</strong> Pratishthacharya Pratimadhari Shri Manik Shripal Chandagade Bayyaji and Ba.Bra. Mahaveera Bayyaji</p>
-                <p><strong>President:</strong> M.D. Jinadatta Jain</p>
-                <p><strong>Secretary:</strong> Pavan C. Jain</p>
-                <p><strong>Joint Secretaries:</strong> Ashok A. D Jain and Sunil A. C Jain</p>
                 <p><strong>Planning & Engineering Drawings:</strong> Santhosh. D Jain (Engineer), <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>Golden Village For Image</a></p>
               </div>
             </div>
@@ -124,9 +121,6 @@ export default function Home() {
               <div className="committee-info">
                 <p style={{ marginTop: 8 }}><strong>ಆಶೀರ್ವಾದ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಚರ್ಯಾ ಶಿರೋಮಣಿ ಪರಮಪೂಜ್ಯ ಮುನಿ ಶ್ರೀ 108 ವಿದಿತಸಾಗರ ಮಹಾರಾಜರು</p>
                 <p><strong>ಬೆಂಬಲ ಮತ್ತು ಮಾರ್ಗದರ್ಶನ:</strong> ಪ್ರತಿಷ್ಠಾಚಾರ್ಯ ಪ್ರತಿಮಾಧಾರಿ ಶ್ರೀ ಮಾಣಿಕ ಶ್ರೀಪಾಲ ಚಂದಗಡೆ ಬಯ್ಯಾಜಿ ಮತ್ತು ಬಾ.ಬ್ರ. ಮಹಾವೀರ ಬಯ್ಯಾಜಿಯವರು</p>
-                <p><strong>ಅಧ್ಯಕ್ಷರು:</strong> ಎಂ.ಡಿ. ಜಿನದತ್ತ ಜೈನ್</p>
-                <p><strong>ಕಾರ್ಯದರ್ಶಿ:</strong> ಪವನ್ ಸಿ. ಜೈನ್</p>
-                <p><strong>ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿಗಳು:</strong> ಅಶೋಕ್ ಎ. ಡಿ ಜೈನ್ ಮತ್ತು ಸುನಿಲ್ ಎ. ಸಿ ಜೈನ್</p>
                 <p><strong>ಯೋಜನೆ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್ ರೇಖಾಚಿತ್ರಗಳು:</strong> ಸಂತೋಷ್. ಡಿ ಜೈನ್ (ಎಂಜಿನಿಯರ್), <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>ಗೋಲ್ಡನ್ ವಿಲೇಜ್ ಫಾರ್ ಇಮೇಜ್</a></p>
               </div>
             </div>
@@ -139,9 +133,6 @@ export default function Home() {
               <div className="committee-info">
                 <p style={{ marginTop: 8 }}><strong>आशीर्वाद और मार्गदर्शन:</strong> चर्या शिरोमणि परमपूज्य मुनि श्री 108 विदितसागर महाराज</p>
                 <p><strong>समर्थन और मार्गदर्शन:</strong> प्रतिष्ठाचार्य प्रतिमाधारी श्री माणिक श्रीपाल चंदगड़े बय्याजी और बा.ब्रा. महावीर बय्याजी</p>
-                <p><strong>अध्यक्ष:</strong> एम.डी. जिनदत्त जैन</p>
-                <p><strong>सचिव:</strong> पवन सी. जैन</p>
-                <p><strong>सहायक सचिव:</strong> अशोक ए. डी जैन और सुनील ए. सी जैन</p>
                 <p><strong>योजना और इंजीनियरिंग रेखाचित्र:</strong> संतोष डी. जैन (इंजीनियर), <a href="https://goldenvillage.in" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>गोल्डन विलेज फॉर इमेज</a></p>
               </div>
             </div>
@@ -501,6 +492,25 @@ export default function Home() {
                     <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>+91 XXXXX XXXXX</span>
                   </div>
+                  <div className="committee-member-info-row">
+                    <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>Adagalale, Shivamogga, Karnataka</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Joint Secretaries */}
+            <div className="committee-member-card">
+              <div className="committee-member-photo" aria-label="Joint Secretaries photo placeholder" />
+              <div className="committee-member-details">
+                <p className="label-caps" style={{ color: "var(--accent-gold)", marginBottom: 4 }}>
+                  ಸಹಾಯಕ ಕಾರ್ಯದರ್ಶಿಗಳು / JOINT SECRETARIES / सहायक सचिव
+                </p>
+                <h4 className="committee-member-name">ಅಶೋಕ್ ಎ. ಡಿ ಜೈನ್ ಮತ್ತು ಸುನಿಲ್ ಎ. ಸಿ ಜೈನ್</h4>
+                <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Ashok A. D Jain and Sunil A. C Jain</p>
+                <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अशोक ए. डी जैन और सुनील ए. सी जैन</p>
+                <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>Adagalale, Shivamogga, Karnataka</span>
