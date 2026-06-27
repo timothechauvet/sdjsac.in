@@ -490,7 +490,7 @@ export default function Home() {
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
-                    <span>Chandolli, Adagalale, Shivamogga, Karnataka</span>
+                    <span>Chandolli, Shivamogga, Karnataka</span>
                   </div>
                 </div>
               </div>
