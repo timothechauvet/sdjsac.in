@@ -27,6 +27,8 @@
   --error: #ba1a1a;
   --on-primary: #ffffff;
   --background: #ffffff;
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: Arial, Helvetica, sans-serif;
 
   /* Spacing */
   --container-max: 1140px;

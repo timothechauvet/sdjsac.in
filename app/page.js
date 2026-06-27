@@ -689,7 +689,7 @@ export default function Home() {
               >
                 <IoLocationSharp size={20} />
                 <span>
-                  ಗೂಗಲ್ ಮ್ಯಾಪ್ಸ್‌ನಲ್ಲಿ ವೀಕ್ಷಿಸಿ (Open in Google Maps / गूगल मैप्स में देखें)
+                  Open in Google Maps
                 </span>
               </a>
             </div>
@@ -714,9 +714,9 @@ export default function Home() {
         <div className="footer__inner">
           <div style={{ flex: 1 }}>
             <div className="footer__brand">
-              <h2>ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</h2>
+              <h2>SUMERU DIGAMBARA JAIN SABHA</h2>
               <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.1em" }}>
-                SUMERU DIGAMBARA JAIN SABHA
+                Adagalale-Chandolli
               </p>
             </div>
 
@@ -725,23 +725,23 @@ export default function Home() {
                 <div className="social-button__icon">
                   <IoMail />
                 </div>
-                <span className="social-button__label">ಇಮೇಲ್ / EMAIL / ईमेल</span>
+                <span className="social-button__label">EMAIL</span>
                 <span className="social-button__value">contact@sdjsac.in</span>
               </a>
 
-              <a href="https://wa.me/33604491758" className="social-button" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/919449793112" className="social-button" target="_blank" rel="noopener noreferrer">
                 <div className="social-button__icon">
                   <FaWhatsapp />
                 </div>
-                <span className="social-button__label">ವಾಟ್ಸಾಪ್ / WHATSAPP / व्हाट्सऐप</span>
-                <span className="social-button__value">+33 60XXX XXXXX</span>
+                <span className="social-button__label">WHATSAPP</span>
+                <span className="social-button__value">+91 944 9793 112</span>
               </a>
 
               <a href="https://www.instagram.com/sumeru_digambara_jain_sabha/" className="social-button" target="_blank" rel="noopener noreferrer">
                 <div className="social-button__icon">
                   <FaInstagram />
                 </div>
-                <span className="social-button__label">ಇನ್ಸ್ಟಾಗ್ರಾಮ್ / INSTAGRAM / इंस्टाग्राम</span>
+                <span className="social-button__label">INSTAGRAM</span>
                 <span className="social-button__value">@sumeru_digambara...</span>
               </a>
 
@@ -749,17 +749,16 @@ export default function Home() {
                 <div className="social-button__icon">
                   <FaFacebookF />
                 </div>
-                <span className="social-button__label">ಫೇಸ್ಬುಕ್ / FACEBOOK / फ़ेसबुक</span>
-                <span className="social-button__value">Profile / प्रोफ़ाइल</span>
+                <span className="social-button__label">FACEBOOK</span>
+                <span className="social-button__value">Sumeru Digambara</span>
               </a>
             </div>
           </div>
 
           <div className="footer__copyright">
-            <p>
-              © 2026 ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ. ಎಲ್ಲಾ ಹಕ್ಕುಗಳನ್ನು ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ.
-            </p>
-            <p className="footer__copyright-en">All Rights Reserved. / सर्वाधिकार सुरक्षित।</p>
+            <p>© 2026 SUMERU DIGAMBARA JAIN SABHA.</p>
+            <p className="footer__copyright-en">All Rights Reserved.</p>
+            <p className="footer__copyright-en"><a href="/privacy-policy" style={{ textDecoration: "underline" }}>Privacy Policy</a></p>
           </div>
         </div>
       </footer>

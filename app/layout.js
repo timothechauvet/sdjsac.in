@@ -1,19 +1,4 @@
-import { Epilogue, Inter } from "next/font/google";
 import "./globals.css";
-
-const epilogue = Epilogue({
-  subsets: ["latin"],
-  weight: ["600", "700"],
-  variable: "--font-display",
-  display: "swap",
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-body",
-  display: "swap",
-});
 
 export const metadata = {
   title: "ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ | SUMERU DIGAMBARA JAIN SABHA",
@@ -46,7 +31,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="kn" suppressHydrationWarning className={`${epilogue.variable} ${inter.variable}`}>
+    <html lang="kn" suppressHydrationWarning>
       <head>
         <meta name="msvalidate.01" content="A0C98989883B65A86453CA3C50818070" />
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
