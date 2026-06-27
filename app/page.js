@@ -5,6 +5,54 @@ import { QRCodeSVG } from "qrcode.react";
 import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness } from "react-icons/io5";
 import { useState } from "react";
 
+const UPI_LINK = "upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw=";
+const TEZ_LINK = "tez://upi/pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw=";
+const PHONEPE_LINK = "phonepe://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw=";
+const PAYTM_LINK = "paytmmp://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw=";
+const BHIM_LINK = "bhim://upi/pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw=";
+
+function GooglePayLogo() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="upi-app-button__logo-svg">
+      <path fill="#4285F4" d="M17 38c0 7.7 6.3 14 14 14 6.4 0 11.8-4.3 13.4-10H31v-8h22c.2 1.2.3 2.3.3 3.6C53.3 50.8 43.5 60 31 60 18.3 60 8 49.7 8 37S18.3 14 31 14c6.2 0 11.4 2.3 15.4 6.1l-5.9 5.9C38 23.5 34.7 22 31 22c-8.3 0-15 6.7-15 15Z"/>
+      <path fill="#34A853" d="M44.4 42c-.9 2.7-2.7 5-5 6.6l6.1 4.7C49.8 50.1 53 44.6 53 38c0-1.3-.1-2.6-.3-3.9H31v8h13.4Z"/>
+      <path fill="#FBBC05" d="M15.7 45.3A14.9 14.9 0 0 1 16 28.4l-6.2-4.8A23 23 0 0 0 8 37c0 3.7.9 7.1 2.4 10.1l5.3-1.8Z"/>
+      <path fill="#EA4335" d="M31 22c3.9 0 7.3 1.3 10 3.9l5.4-5.4C42.4 16.8 37.2 14 31 14c-8.8 0-16.4 5-20.2 12.4l6.2 4.8C19 25.8 24.5 22 31 22Z"/>
+    </svg>
+  );
+}
+
+function PhonePeLogo() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="upi-app-button__logo-svg">
+      <rect x="8" y="8" width="48" height="48" rx="12" fill="#5F259F" />
+      <path fill="#fff" d="M30 20h7c4.4 0 8 3.6 8 8 0 3.8-2.7 7-6.3 7.8l5.3 8.2h-8.1l-4.8-7.8H30V44h-7V20h7Zm0 10h6c1.1 0 2-.9 2-2s-.9-2-2-2h-6v4Z"/>
+    </svg>
+  );
+}
+
+function PaytmLogo() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="upi-app-button__logo-svg">
+      <rect x="6" y="10" width="52" height="44" rx="10" fill="#EAF6FF" />
+      <path fill="#00BAF2" d="M18 36V25h8.5c4.1 0 6.8 2.2 6.8 5.6 0 3.5-2.7 5.4-6.8 5.4H22V36h-4Zm4-3h4.1c1.8 0 3-.9 3-2.4s-1.2-2.5-3-2.5H22V33Z"/>
+      <path fill="#002E6E" d="M35 25h4v11h-4V25Zm5.3 0h4.3l3.2 5.2L51 25h4.2l-5.1 7.8L55.4 41h-4.3l-3.4-5.4L44.2 41H40l5.4-8.1L40.3 25Z"/>
+    </svg>
+  );
+}
+
+function BhimLogo() {
+  return (
+    <svg viewBox="0 0 64 64" aria-hidden="true" className="upi-app-button__logo-svg">
+      <rect x="6" y="10" width="52" height="44" rx="10" fill="#ffffff" stroke="#1f2937" strokeWidth="2"/>
+      <path fill="#F58220" d="M20 23h10l-6 8h-10l6-8Z"/>
+      <path fill="#2A5CAA" d="M34 23h10l-6 8H28l6-8Z"/>
+      <path fill="#6CB33F" d="M25 33h19l-5 8H20l5-8Z"/>
+      <circle cx="47" cy="22" r="3" fill="#F58220"/>
+    </svg>
+  );
+}
+
 export default function Home() {
   const marqueeDuration = Math.max(50, Math.round(MINOR_DONORS.length * 0.6));
   const [copiedText, setCopiedText] = useState("");
@@ -241,12 +289,9 @@ export default function Home() {
                     loading="lazy"
                   />
                 </div>
-                <a
-                  href="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
-                  aria-label="Open UPI payment link"
-                >
+                <a href={UPI_LINK} aria-label="Open UPI payment link">
                   <QRCodeSVG
-                    value="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
+                    value={UPI_LINK}
                     title="UPI QR Code - SUMERU DIGAMBARA JAINA SABHA"
                     size={240}
                     level="M"
@@ -254,20 +299,31 @@ export default function Home() {
                     className="qr-card__qr-image"
                   />
                 </a>
+                <p className="body-sm qr-card__scan-text">
+                  ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ದಾನ ಮಾಡಿ
+                  <br />
+                  Scan and Donate
+                  <br />
+                  स्कैन करें और दान करें
+                </p>
               </div>
-              <a
-                className="btn-gold qr-card__pay-button"
-                href="upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw="
-              >
-                PAY WITH BHIM UPI
-              </a>
-              <p className="body-sm" style={{ color: "var(--text-secondary)", marginTop: 12, textAlign: "center", width: "100%" }}>
-                ಸ್ಕ್ಯಾನ್ ಮಾಡಿ ಮತ್ತು ದಾನ ಮಾಡಿ
-                <br />
-                Scan and Donate
-                <br />
-                स्कैन करें और दान करें
-              </p>
+              <div className="qr-card__apps-section">
+                <p className="bank-field__label qr-card__apps-title">DONATE WITH UPI</p>
+                <div className="qr-card__apps-grid">
+                  <a className="upi-app-button upi-app-button--gpay" href={TEZ_LINK} aria-label="Donate with Google Pay">
+                    <GooglePayLogo />
+                  </a>
+                  <a className="upi-app-button upi-app-button--phonepe" href={PHONEPE_LINK} aria-label="Donate with PhonePe">
+                    <PhonePeLogo />
+                  </a>
+                  <a className="upi-app-button upi-app-button--paytm" href={PAYTM_LINK} aria-label="Donate with Paytm">
+                    <PaytmLogo />
+                  </a>
+                  <a className="upi-app-button upi-app-button--bhim" href={BHIM_LINK} aria-label="Donate with BHIM">
+                    <BhimLogo />
+                  </a>
+                </div>
+              </div>
               <div style={{ marginTop: 8, textAlign: "left", width: "100%", display: "flex", flexDirection: "column", gap: 16 }}>
                 <div>
                   <p className="bank-field__label">ಖಾತೆ ಹೆಸರು / ACCOUNT NAME / खाता नाम</p>
