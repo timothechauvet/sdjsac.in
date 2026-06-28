@@ -391,9 +391,9 @@ export default function Home() {
                 <div style={{ gridColumn: "1 / -1" }}>
                   <p className="bank-field__label">ಶಾಖೆ ವಿವರಗಳು / BRANCH ADDRESS / शाखा पता</p>
                   <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
-                    <span className="bank-field__value" style={{ fontSize: 16 }}>Adagalale-Sullalli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577453, India</span>
+                    <span className="bank-field__value" style={{ fontSize: 16 }}>Adagalale-Sullalli, Karur Cluster, Sagar Taluk, Shivamogga, Karnataka, Pin: 577453, India</span>
                     <button 
-                      onClick={() => handleCopy("Adagalale-Sullalli, Sagar Taluk, Shivamogga, Karnataka, Pin: 577453, India", "branch")}
+                      onClick={() => handleCopy("Adagalale-Sullalli, Karur Cluster, Sagar Taluk, Shivamogga, Karnataka, Pin: 577453, India", "branch")}
                       style={{ background: "none", border: "none", cursor: "pointer", color: "var(--accent-gold)", padding: 4, display: "flex", alignItems: "center", gap: 4, fontSize: 12, fontWeight: 700 }}
                     >
                       <FaCopy size={14} />
@@ -706,13 +706,13 @@ export default function Home() {
             <div className="location-info">
               <div>
                 <p className="location-info__address">
-                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಸುಲ್ಲಾಲ್ಲಿ ಅಂಚೆ ಸಾಗರ ತಾಲೂಕು ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ ಕರ್ನಾಟಕ ರಾಜ್ಯ ಭಾರತ
+                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಸುಳ್ಳಳ್ಳಿ ಅಂಚೆ ಸಾಗರ ತಾಲೂಕು ಕರೂರು ಹೋಬಳಿ ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ ಕರ್ನಾಟಕ ರಾಜ್ಯ ಭಾರತ
                 </p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-                  Adagalale-Chandolli, Sullalli Post, Sagar Taluk, Shivamogga District, Karnataka State, India
+                  Adagalale-Chandolli, Sullalli Post, Karur Cluster, Sagar Taluk, Shivamogga District, Karnataka State, India
                 </p>
                 <p className="bilingual-english-sub">
-                  अडगळले-चंदोल्ली, सुल्लाली पोस्ट, सागर तालुका, शिवमोग्गा जिला, कर्नाटक राज्य, भारत
+                  अडगळले-चंदोल्ली, सुल्लाली पोस्ट, करूर क्लस्टर, सागर तालुका, शिवमोग्गा जिला, कर्नाटक राज्य, भारत
                 </p>
               </div>
               <a
@@ -945,7 +945,7 @@ const MINOR_DONORS = [
   { nameKn: "ಶ್ರಾವ್ಯಾ ಅಶೋಕ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Shravya Ashok Jain, Adagalale", amount: "₹ 1,000" },
   { nameKn: "ಸುಲೋಚನಾ ದೀದಿ, ಮರುಬಿಡಿ", nameEn: "Sulochana Didi, Marubidi", amount: "₹ 1,000" },
   { nameKn: "ಮೇಘರಾಜ್ ಜೈನ್, ಮಂಡವಳ್ಳಿ", nameEn: "Megharaj Jain, Mandavalli", amount: "₹ 1,000" },
-  { nameKn: "ಸುಜಾತಾ ಪದ್ಮರಾಜ್ ಜೈನ್, ಸುಳ್ಳಳ್ಳಿ", nameEn: "Sujatha Padmaraj Jain, Sullalli", amount: "₹ 1,000" },
+  { nameKn: "ಸುಜಾತಾ ಪದ್ಮರಾಜ್ ಜೈನ್, ಕರೂರು ಹೋಬಳಿ, ಸುಳ್ಳಳ್ಳಿ", nameEn: "Sujatha Padmaraj Jain, Karur Cluster, Sullalli", amount: "₹ 1,000" },
   { nameKn: "ಸುಮಾ ನಾಗಕುಮಾರ್ ಜೈನ್, ಕಾರಣಿ", nameEn: "Suma Nagakumar Jain, Karani", amount: "₹ 1,000" },
   { nameKn: "ರತ್ನಮ್ಮ, ಬ್ಯಾಕೋಡು", nameEn: "Rathnamma, Byakodu", amount: "₹ 1,000" },
   { nameKn: "ಸುಧಾ, ಬಂಗ್ಲಿ, ಆಡಗಳಲೆ", nameEn: "Sudha, Bangli, Adagalale", amount: "₹ 500" },
