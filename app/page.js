@@ -2,7 +2,7 @@
 
 import { FaWhatsapp, FaInstagram, FaFacebookF, FaCopy } from "react-icons/fa";
 import { QRCodeSVG } from "qrcode.react";
-import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness } from "react-icons/io5";
+import { IoCheckmarkCircleSharp, IoHourglassOutline, IoLocationSharp, IoMail, IoQrCode, IoBusiness, IoCall } from "react-icons/io5";
 import { useState } from "react";
 
 const UPI_LINK = "upi://pay?pa=QR919483056445-0815@unionbankofindia&pn=SUMERU%20DIGAMBARA%20JAINA%20SABHA%20ADAGALALE%20CHANDOLLI&cu=INR&tr=FINACLE_QRCODE&mc=0000&mode=02&purpose=00&sign=MEUCIQDJwgDf14ufFFtm7RcPLVAPB4x2hmFQlCMFQjYkPpU4FwIgOxqxWlECPPDGH2gir8vUsepTFH4PMf77D68RHYtOfiw=";
@@ -496,6 +496,10 @@ export default function Home() {
                 <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>जिनदत्त एम.डी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
+                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>+91 9480543400</span>
+                  </div>
+                  <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>Adagalale, Shivamogga, Karnataka</span>
                   </div>
@@ -534,6 +538,10 @@ export default function Home() {
                 <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>पवन सी. जैन</p>
                 <div className="committee-member-info">
                   <div className="committee-member-info-row">
+                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>+91 87628 83251</span>
+                  </div>
+                  <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>Adagalale, Shivamogga, Karnataka</span>
                   </div>
@@ -552,6 +560,10 @@ export default function Home() {
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>Ashok A.D. Jain</p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 12 }}>अशोक ए.डी. जैन</p>
                 <div className="committee-member-info">
+                  <div className="committee-member-info-row">
+                    <IoCall size={14} style={{ flexShrink: 0, marginTop: 2 }} />
+                    <span>+91 94830 56445</span>
+                  </div>
                   <div className="committee-member-info-row">
                     <IoLocationSharp size={14} style={{ flexShrink: 0, marginTop: 2 }} />
                     <span>Adagalale, Shivamogga, Karnataka</span>
