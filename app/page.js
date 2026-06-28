@@ -709,7 +709,7 @@ export default function Home() {
                   ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ
                 </p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-                  Adagalale-Chandolli, Shivamogga District, Karnataka
+                  Adagalale-Chandolli, Sullalli Post, Sagar Taluk, Shivamogga District, Karnataka State, India
                 </p>
                 <p className="bilingual-english-sub">
                   अडगळले-चंदोल्ली, शिवमोग्गा जिला, कर्नाटक
