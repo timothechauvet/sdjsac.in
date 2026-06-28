@@ -706,13 +706,13 @@ export default function Home() {
             <div className="location-info">
               <div>
                 <p className="location-info__address">
-                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ
+                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಸುಲ್ಲಾಲ್ಲಿ ಅಂಚೆ ಸಾಗರ ತಾಲೂಕು ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ ಕರ್ನಾಟಕ ರಾಜ್ಯ ಭಾರತ
                 </p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
                   Adagalale-Chandolli, Sullalli Post, Sagar Taluk, Shivamogga District, Karnataka State, India
                 </p>
                 <p className="bilingual-english-sub">
-                  अडगळले-चंदोल्ली, शिवमोग्गा जिला, कर्नाटक
+                  अडगळले-चंदोल्ली, सुल्लाली पोस्ट, सागर तालुका, शिवमोग्गा जिला, कर्नाटक राज्य, भारत
                 </p>
               </div>
               <a
