@@ -706,7 +706,7 @@ export default function Home() {
             <div className="location-info">
               <div>
                 <p className="location-info__address">
-                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಸುಳ್ಳಳ್ಳಿ ಅಂಚೆ ಸಾಗರ ತಾಲೂಕು ಕರೂರು ಹೋಬಳಿ ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ ಕರ್ನಾಟಕ ರಾಜ್ಯ ಭಾರತ
+                  ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಸುಳ್ಳಳ್ಳಿ ಅಂಚೆ, ಕರೂರು ಹೋಬಳಿ, ಸಾಗರ ತಾಲೂಕು, ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ ರಾಜ್ಯ, ಭಾರತ
                 </p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
                   Adagalale-Chandolli, Sullalli Post, Karur Cluster, Sagar Taluk, Shivamogga District, Karnataka State, India
