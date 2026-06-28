@@ -68,7 +68,7 @@ export default function Home() {
                   ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ, ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ
                 </h1>
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-                  SUMERU DIGAMBARA JAIN SABHA, Adagalale-Sullalli
+                  SUMERU DIGAMBARA JAIN SABHA, Adagalale-Chandolli
                 </p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 24 }}>
                   सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
@@ -709,7 +709,7 @@ export default function Home() {
                   ಆಡಗಳಲೆ-ಚಂದೊಳ್ಳಿ, ಶಿವಮೊಗ್ಗ ಜಿಲ್ಲೆ, ಕರ್ನಾಟಕ
                 </p>
                 <p className="bilingual-english-sub" style={{ marginBottom: 8 }}>
-                  Adagalale-Sullalli, Shivamogga District, Karnataka
+                  Adagalale-Chandolli, Shivamogga District, Karnataka
                 </p>
                 <p className="bilingual-english-sub">
                   अडगळले-चंदोल्ली, शिवमोग्गा जिला, कर्नाटक
@@ -730,7 +730,7 @@ export default function Home() {
             <div className="location-map">
               <iframe
                 title="Google Maps location of Sumeru Digambara Jain Sabha"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1936.013362740682!2d74.8117103!3d13.9570144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc7b0043fe370d%3A0x70049cc10bd865e5!2sSumeru%20Digambara%20Jain%20Sabha%2C%20Adagalale-Sullalli!5e0!3m2!1sen!2sfr!4v1781599626649!5m2!1sen!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1936.013362740682!2d74.8117103!3d13.9570144!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbc7b0043fe370d%3A0x70049cc10bd865e5!2sSumeru%20Digambara%20Jain%20Sabha%2C%20Adagalale-Chandolli!5e0!3m2!1sen!2sfr!4v1781599626649!5m2!1sen!2sfr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -750,7 +750,7 @@ export default function Home() {
             <div className="footer__brand">
               <h2>ಸುಮೇರು ದಿಗಂಬರ ಜೈನ ಸಭಾ</h2>
               <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.1em" }}>
-                SUMERU DIGAMBARA JAIN SABHA, Adagalale-Sullalli
+                SUMERU DIGAMBARA JAIN SABHA, Adagalale-Chandolli
               </p>
               <p className="label-caps" style={{ color: "var(--text-secondary)", letterSpacing: "0.08em", marginTop: 4 }}>
                 सुमेरु दिगंबर जैन सभा, अडगळले-चंदोल्ली
@@ -771,7 +771,7 @@ export default function Home() {
                   <FaWhatsapp />
                 </div>
                 <span className="social-button__label">WHATSAPP</span>
-                <span className="social-button__value">+91 XXXXX XXXXX</span>
+                <span className="social-button__value">+91 944 9793 112</span>
               </a>
 
               <a href="https://www.instagram.com/sumeru_digambara_jain_sabha/" className="social-button" target="_blank" rel="noopener noreferrer">
