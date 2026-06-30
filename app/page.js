@@ -897,6 +897,7 @@ const MINOR_DONORS = [
   { nameKn: "ಪ್ರಾರ್ಥನಾ, ಸ್ವಪ್ನಾ ವೀರೇಂದ್ರಕುಮಾರ್, ಬೆಂಗಳೂರು", nameEn: "Prarthana, Swapna Virendrakumar, Bengaluru", amount: "₹ 28,225" },
   { nameKn: "ಸುಮಿತ್ರಾ ಡಾಕಪ್ಪ ಜೈನ್ ಮತ್ತು ಕುಟುಂಬದವರು, ಮಡದೂರು, ಆಡಗಳಲೆ", nameEn: "Sumithra Dakappa Jain and family, Madadur, Adagalale", amount: "₹ 15,663" },
   { nameKn: "ಕವಿತಾ ಪದ್ಮಯ್ಯ (ರವಿ) ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Kavitha Padmayya (Ravi) Jain, Adagalale", amount: "₹ 15,116" },
+  { nameKn: "ತ್ರಿಶಾಲ, ಪದ್ಮಲತಾ, ಜಯರತ್ನ, ಧನಪಾಲ್, ಬಂಗಾರಮ್ಮ ಜೈನ್ ಬ್ಯಾಕೋಡು", nameEn: "Trishala, Padmalatha, Jayaratna, Dhanapal, Bangaramma Jain Byakodu", amount: "₹ 12,008" },
   { nameKn: "ಲತಾ ಶಿಶುಪಾಲ್ ಜೈನ್, ಆಡಗಳಲೆ", nameEn: "Latha Shishupal Jain, Adagalale", amount: "₹ 11,108" },
   { nameKn: "ಸುಗುಣ ಪ್ರೇಮ್‌ಕುಮಾರ್ ಜೈನ್, ಮೇಲ್ಮಂಜಿ, ಕೋಗರ್", nameEn: "Suguna Premkumar Jain, Melmanji, Kogar", amount: "₹ 11,000" },
   { nameKn: "ವಸಂತಿ ದೇವರಾಜ್ ಜೈನ್, ಯಡ್ಡೊಳ್ಳಿ, ಕಾರ್ಗಲ್", nameEn: "Vasanthi Devaraj Jain, Yeddolli, Kargal", amount: "₹ 11,000" },
